@@ -20,12 +20,15 @@ description: askMax Blog
 
 # List of links in the navigation bar
 navbar-links:
+  Blog: "index"
   About Me: "aboutme"
-  Resources:
-    - Presentations: "presentations"
-    - Videos: "videos"
-  Register (1 free Quarter): "https://askmax.solutions/ords/f?p=ASKMAX:SIGNUP"
-  Login: "https://askmax.solutions/ords/f?p=ASKMAX:LOGIN"
+  #Resources:
+  #  - Presentations: "presentations"
+  #  - Videos: "videos"
+  askMax:
+    - Home: "https://askmax.solutions/"
+    - Register <span class="small text-capitalize">(1 free Quarter)</span>: "https://askmax.solutions/ords/f?p=ASKMAX:SIGNUP"
+    - Login: "https://askmax.solutions/ords/f?p=ASKMAX:LOGIN"
 
 # Image to show in the navigation bar - image must be a square (width = height)
 # Remove this parameter if you don't want an image in the navbar
