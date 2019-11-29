@@ -1,0 +1,15 @@
+---
+layout: post
+title: iOS Modal Scrolling
+date: '2016-10-17T12:37:00.001-04:00'
+author: Maxime Tremblay
+tags:
+- SCROLLING
+- MODAL
+- APEX5
+modified_time: '2019-02-21T09:16:57.644-05:00'
+blogger_id: tag:blogger.com,1999:blog-267713902572011003.post-4224146242318645271
+blogger_orig_url: https://max-tremblay.blogspot.com/2016/10/ios-modal-scrolling.html
+---
+
+If you ever tried to scroll a modal page from within Safari on iOS you probably noticed that what is getting scrolled is the parent page content and not the actual modal content.<br /><br />There is a simple fix for that:<br /><pre class="line-numbers"><code class="language-css">body .ui-dialog .ui-dialog-content{<br />    -webkit-overflow-scrolling: touch;<br />}</code></pre><br />If you're not using the built-in modal, the idea is to add the css property to the wrapping element of the iframe.<br />Let's say you're using Skillbuilders' Modal Plugin, you can use the following: <br /><pre class="line-numbers"><code class="language-css">#cboxLoadedContent{<br />    -webkit-overflow-scrolling: touch;<br />}</code></pre><br />You can have a look at my <a href="http://max-playground.ddns.net/ords/f?p=DEMO:2400" target="_blank">Demo Application</a>

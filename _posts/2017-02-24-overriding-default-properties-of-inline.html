@@ -1,0 +1,16 @@
+---
+layout: post
+title: Overriding the Default Properties of Inline Dialogs
+date: '2017-02-24T15:46:00.000-05:00'
+author: Maxime Tremblay
+tags:
+- INLINE
+- MODAL
+- APEX5
+- DIALOG
+modified_time: '2017-02-24T15:46:59.559-05:00'
+blogger_id: tag:blogger.com,1999:blog-267713902572011003.post-4620503529705718078
+blogger_orig_url: https://max-tremblay.blogspot.com/2017/02/overriding-default-properties-of-inline.html
+---
+
+When using inline modal, you can display them using the <code class="language-javascript">openModal</code> JavaScript function.<br /><br />That function is wrapping the jQuery UI Dialog Open method.<br /><pre class="line-numbers"><code class="language-javascript">/* **********************************************<br />     From Theme42.js<br />********************************************** */<br />window.openModal = function(pDialogId, pDialogTriggerId, pSetFocusId, pClear) {<br />        $("#" + pDialogId).dialog("open")<br />    }<br /></code></pre><br />What we can do to override the default properties is to set them either on page or right before calling the Open method.<br /><br />Let's say we would like to have a smaller dialog (e.g. height of 200px)<br /><br /><br /><h2><u>Option 1</u></h2>On page load<br /><pre class="line-numbers"><code class="language-javascript">$('#INLINE_REGION_STATIC_ID').dialog('option', 'height', 200);<br /></code></pre><br />Then you can use<br /><pre class="line-numbers"><code class="language-javascript">openModal('INLINE_REGION_STATIC_ID');<br /></code></pre>or<br /><pre class="line-numbers"><code class="language-javascript">$('#INLINE_REGION_STATIC_ID').dialog('open');<br /></code></pre><br /><h2><u>Option 2</u></h2>When openning the Dialog:<br /><pre class="line-numbers"><code class="language-javascript">$('#INLINE_REGION_STATIC_ID').dialog('option', 'height', 200).dialog('open')<br /></code></pre><br />For more information, you can have a look at the <a href="http://api.jqueryui.com/dialog/" target="_blank">Dialog Widget documentation</a>

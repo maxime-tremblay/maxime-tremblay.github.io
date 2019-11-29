@@ -1,0 +1,18 @@
+---
+layout: post
+title: Auto Expanding Menu on Hover
+date: '2017-09-25T22:35:00.000-04:00'
+author: Maxime Tremblay
+tags:
+- HOVER
+- NAVIGATION
+- SIDE
+- EXPANDING
+- APEX5
+modified_time: '2019-02-21T09:19:23.671-05:00'
+thumbnail: https://4.bp.blogspot.com/-157Sknt89gg/Wcmzxf1CQ6I/AAAAAAAABdQ/Cb2CyjIR_q85h_ISgJ1ZJIAsfx7FJcsagCLcBGAs/s72-c/Auto-Expanding-Menu-Hover.gif
+blogger_id: tag:blogger.com,1999:blog-267713902572011003.post-803134177155217425
+blogger_orig_url: https://max-tremblay.blogspot.com/2017/09/auto-expanding-menu-on-hover.html
+---
+
+Today someone on the apex.world Slack asked a question about having the side navigation menu auto-expand when hovering it. So I thought I would share this with others as well.<br /><br />It can be easily be done using only a couple of JavaScript lines of code:<br /><blockquote class="tr_bq"><pre class="line-numbers"><code class="language-javascript">(function(ut, $) {<br /><br />var TREE_NAV_WIDGET_KEY = 'nav';<br /><br />$(window).on('theme42ready', function() {<br />    /* Make sure that the navigation menu is collapsed on page load */<br />    if (ut.toggleWidgets.isExpanded(TREE_NAV_WIDGET_KEY)){<br />        ut.toggleWidgets.collapseWidget(TREE_NAV_WIDGET_KEY);<br />    }<br /><br />    /* Expand on mouse over, collapse on mouse out */<br />    $('.apex-side-nav.js-navCollapsed .t-Body-nav').hover(<br />        function(){<br />            ut.toggleWidgets.expandWidget(TREE_NAV_WIDGET_KEY);<br />        },<br />        function() {<br />            ut.toggleWidgets.collapseWidget(TREE_NAV_WIDGET_KEY);<br />        }<br />    );<br />});<br /><br />})(apex.theme42, apex.jQuery);</code><br /></pre></blockquote>First thing we need to do is make sure that the side navigation is collapsed.<br />Then we add a hovering handler using the jQuery&nbsp;<a href="https://api.jquery.com/hover/" target="_blank">.hover()</a>&nbsp;on the navigation menu container.<br /><br />You'll end up with something like this:<br /><br /><div class="separator" style="clear: both; text-align: center;"><a href="https://4.bp.blogspot.com/-157Sknt89gg/Wcmzxf1CQ6I/AAAAAAAABdQ/Cb2CyjIR_q85h_ISgJ1ZJIAsfx7FJcsagCLcBGAs/s1600/Auto-Expanding-Menu-Hover.gif" imageanchor="1" style="clear: right; float: right; margin-bottom: 1em; margin-left: 1em;"><img border="0" data-original-height="579" data-original-width="888" src="https://4.bp.blogspot.com/-157Sknt89gg/Wcmzxf1CQ6I/AAAAAAAABdQ/Cb2CyjIR_q85h_ISgJ1ZJIAsfx7FJcsagCLcBGAs/s400/Auto-Expanding-Menu-Hover.gif" width="530" /></a></div><div class="separator" style="clear: both; text-align: center;"></div>Have fun<br /><br />You can have a look at it in action in my <a href="http://max-playground.ddns.net/ords/f?p=DEMO:1200" target="_blank">Demo Application</a><br /><blockquote class="tr_bq" style="background-color: rgba(0 , 0 , 0 , 0.2); border-radius: 30px; padding: 30px;"><u>Edit 09-27</u><br />Now triggers the <a href="https://apex.oracle.com/pls/apex/f?p=42:6200" target="_blank">custom navigation menu event</a>.<br />Also calls the delayResize function so that any sticky headers get resized correctly when the side navigation menu is expanded and collapsed.<br /><br /><u>Edit 09-28</u><br />Rewrote to use namespacing, wrapped using the "theme42ready" event and replaced the collapsed/expand calls with the universal theme functions.</blockquote>

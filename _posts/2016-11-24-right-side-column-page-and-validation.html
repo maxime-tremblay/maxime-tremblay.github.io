@@ -1,0 +1,20 @@
+---
+layout: post
+title: Right Side Column Page and Validation Error Message Region
+date: '2016-11-24T12:13:00.000-05:00'
+author: Maxime Tremblay
+tags:
+- RIGHT
+- NOTIFICATION
+- SIDE
+- MESSAGE
+- APEX5
+- CLOSE
+- Region
+modified_time: '2016-11-24T12:13:22.691-05:00'
+thumbnail: https://3.bp.blogspot.com/-Kxxv4S2gb-I/WDb_G29pqoI/AAAAAAAAASE/_PzxXnkNb9UqZIW56LJ-bG1iCXSgZE8cQCLcB/s72-c/Right%2BSide%2BColumn%2BPage%2Band%2BValidation%2BError%2BMessage%2BRegion.png
+blogger_id: tag:blogger.com,1999:blog-267713902572011003.post-1883980385059963499
+blogger_orig_url: https://max-tremblay.blogspot.com/2016/11/right-side-column-page-and-validation.html
+---
+
+If you ever used the "Right Side Column" page template, you might have noticed that the validation error message region is displayed under the right side region's expand/collapse trigger button.<br /><br /><div class="separator" style="clear: both; text-align: center;"><a href="https://3.bp.blogspot.com/-Kxxv4S2gb-I/WDb_G29pqoI/AAAAAAAAASE/_PzxXnkNb9UqZIW56LJ-bG1iCXSgZE8cQCLcB/s1600/Right%2BSide%2BColumn%2BPage%2Band%2BValidation%2BError%2BMessage%2BRegion.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img border="0" height="132" src="https://3.bp.blogspot.com/-Kxxv4S2gb-I/WDb_G29pqoI/AAAAAAAAASE/_PzxXnkNb9UqZIW56LJ-bG1iCXSgZE8cQCLcB/s400/Right%2BSide%2BColumn%2BPage%2Band%2BValidation%2BError%2BMessage%2BRegion.png" width="400" /></a></div><br />As you can see above, the expand/collapse trigger button is on top of the close notification "X" button.<br /><br />There are two ways to go in order to fix that, both using CSS only.<br /><br /><u>The first method</u> is to add some right margin to the notification region.<br /><br /><blockquote><pre class="line-numbers"><code class="language-css">.js-rightExpanded .t-Body-content .t-Body-alert,<br />.js-rightCollapsed .t-Body-content .t-Body-alert {<br />    margin-right: 40px; /* Width of the right side region's trigger button */<br />}<br /></code></pre></blockquote><br />It will then look like this:<br /><div class="separator" style="clear: both; text-align: center;"><a href="https://3.bp.blogspot.com/-8_BCHfzSVg4/WDb_GzecWhI/AAAAAAAAASA/CQ6bEmsfEAEqyPeXeoIzmwJqgzhK97UlwCEw/s1600/Right%2BSide%2BColumn%2BPage%2Band%2BValidation%2BError%2BMessage%2BRegion%2B-%2BFix%2B2.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img border="0" height="133" src="https://3.bp.blogspot.com/-8_BCHfzSVg4/WDb_GzecWhI/AAAAAAAAASA/CQ6bEmsfEAEqyPeXeoIzmwJqgzhK97UlwCEw/s400/Right%2BSide%2BColumn%2BPage%2Band%2BValidation%2BError%2BMessage%2BRegion%2B-%2BFix%2B2.png" width="400" /></a></div><br /><u>The second method</u> is to reposition the notification region on top of the right side region's trigger button.<br /><br /><blockquote><pre class="line-numbers"><code class="language-css">.js-rightExpanded .t-Body-content .t-Body-alert,<br />.js-rightCollapsed .t-Body-content .t-Body-alert {<br />    position: relative; /* Need to position the div for the z-index to work */<br />    z-index: 500; /* z-index of right side column is 490 */<br />}<br /></code></pre></blockquote><br />It will then look like this:<br /><div class="separator" style="clear: both; text-align: center;"><a href="https://2.bp.blogspot.com/-0Wu1EUGa8OU/WDb_G0sA-XI/AAAAAAAAASI/APX_FP1wHLEW0A1isYvKRWdKVpMCuNpOACEw/s1600/Right%2BSide%2BColumn%2BPage%2Band%2BValidation%2BError%2BMessage%2BRegion-%2BFix%2B1.png" imageanchor="1" style="margin-left: 1em; margin-right: 1em;"><img border="0" height="133" src="https://2.bp.blogspot.com/-0Wu1EUGa8OU/WDb_G0sA-XI/AAAAAAAAASI/APX_FP1wHLEW0A1isYvKRWdKVpMCuNpOACEw/s400/Right%2BSide%2BColumn%2BPage%2Band%2BValidation%2BError%2BMessage%2BRegion-%2BFix%2B1.png" width="400" /></a></div>

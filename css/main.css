@@ -786,3 +786,14 @@ pre {
   font-style: italic;
   font-size: 16px;
 }
+
+/* Fix for image in header for smaller device */
+@media only screen and (max-width: 768px) {
+  .navbar-custom .avatar-container {
+      margin-top: 10px;
+  }
+
+  .header-section {
+      margin-top: 110px;
+  }
+}
