@@ -111,3 +111,31 @@
 .post-preview .post-title {
   font-size: 24px;
 }
+
+
+/* Font sizes */
+.navbar-custom .nav li a {
+  font-size: 1.5rem;
+}
+
+.intro-header .page-heading h1 {
+  font-size: 3rem;
+}
+
+.intro-header .page-heading .page-subheading,
+.intro-header .post-heading .post-subheading {
+  font-size: 2.5rem;
+}
+
+.post-preview .post-title {
+  font-size: 2rem;
+}
+
+body {
+  font-size: 1rem;
+}
+
+.post-preview .post-meta,
+.post-heading .post-meta {
+  font-size: .8rem;
+}
