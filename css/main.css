@@ -116,7 +116,7 @@ img {
 }
 
 .navbar-custom .nav li a {
-  /*text-transform: uppercase;*/
+  text-transform: uppercase;
   font-size: 12px;
   letter-spacing: 1px;
 }
@@ -169,14 +169,13 @@ img {
 .navbar-custom .avatar-container {
   position: absolute;
   left: 50%;
-  transform: translateX(-50%);
   width: 50px;
   margin-top: -25px;
 }
 .navbar-custom .avatar-container .avatar-img-border {
   width: 100%;
   border-radius: 50%;
-  /*margin-left: -50%;*/
+  margin-left: -50%;
   display: inline-block;
   box-shadow: 0 0 8px rgba(0, 0, 0, .8);
   -webkit-box-shadow: 0 0 5px rgba(0, 0, 0, .8);
@@ -786,53 +785,4 @@ pre {
   color: #808080;
   font-style: italic;
   font-size: 16px;
-}
-
-/* Fix for image in header for smaller device */
-@media only screen and (max-width: 768px) {
-  .navbar-custom .avatar-container {
-      margin-top: 10px;
-  }
-
-  .header-section {
-      margin-top: 110px;
-  }
-
-  .navbar-brand-logo{
-    max-width: calc(100vw - 34px - 10px - 10px - 10px); /* toggle icon, padding right, padding left, space */
-  }
-  
-  .navbar-brand-logo > img {
-    object-fit: contain;
-  }
-}
-
-/* Small devices (landscape phones, 576px and up) */
-@media (min-width: 576px) and (max-width: 768px) { 
-  .navbar-custom .avatar-container {
-    margin-top: 10px;
-  }
-
-  .header-section {
-    margin-top: 110px;
-  }
-
-  .navbar-brand-logo{
-    max-width: calc(100vw - 34px - 10px - 10px - 10px); /* toggle icon, padding right, padding left, space */
-  }
-
-  .navbar-brand-logo > img {
-    object-fit: contain;
-  }
-}
-
-/* Medium devices (tablets, 768px and up) */
-@media (min-width: 768px) and (max-width: 992px) { 
-  .navbar-custom .avatar-container {
-    margin-top: 10px;
-  }
-
-  .header-section {
-    margin-top: 190px;
-  }
 }

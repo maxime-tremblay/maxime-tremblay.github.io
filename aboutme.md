@@ -4,11 +4,9 @@ title: About Me
 subtitle: You can ask me anything!
 ---
 
-My name is Maxime Tremblay, I'm a very passionate Oracle APEX developer. I've been working with APEX since 2008, handling multiple APEX applications for various companies.
+My name is **Maxime Tremblay** and I'm a very passionate Oracle APEX developer. I've been working with APEX since 2008, handling multiple APEX applications for various companies.
 
-I have always enjoyed helping other people and when [apex.world](https://apex.world){:target="_blank"} was created I started to help other people on Slack. Since then, I have answered more than 1000 questions. Because I like it so much, I decided to create a service, [askMax](https://askMax.solutions){:target="_blank"}, where I could provide professional APEX support, training and coaching.
-
-
+I have always enjoyed helping other people and when [apex.world](https://apex.world){:target="_blank"} was created, I started helping other developers on Slack. Since then I have answered more than 1000 questions. Because I like it so much, I decided to create a service, [askMax](https://askMax.solutions){:target="_blank"}, where I could provide professional APEX support, training and coaching.
 
 ### My History
 
