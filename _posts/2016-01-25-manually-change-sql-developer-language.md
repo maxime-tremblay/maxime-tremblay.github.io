@@ -12,6 +12,7 @@ Here are the steps you need to follow:
 - From the root of SQL Developer folder, go into the `sqldeveloper\bin` subfolder.
 - Edit the `sqldeveloper.conf` file
 - Append this at the end
+
 ``` texte
 #Force English
 AddVMOption -Duser.language=en

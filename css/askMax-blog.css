@@ -1,3 +1,6 @@
+---
+---
+
 /* reduced the text size */
 /*body {
   font-size: 14px;
@@ -6,6 +9,12 @@
 /* Change default tag color*/
 .blog-tags a {
   color: #999;
+}
+
+.blog-tags a:hover {
+  border-radius: 2px;
+  color: {{ site.hover-col }};
+  background-color: #EEE;
 }
 
 /* Making the post tile inline instead so that link is applied on text only */
@@ -112,30 +121,48 @@
   font-size: 24px;
 }
 
+.highlight > pre {
+  border-color: {{ site.hover-col }};
+}
+
 
 /* Font sizes */
+html {
+  font-size: 14px;
+}
+
 .navbar-custom .nav li a {
-  font-size: 1.5rem;
+  font-size: 1.4rem;
 }
 
 .intro-header .page-heading h1 {
   font-size: 3rem;
 }
 
+.intro-header .post-heading h1,
 .intro-header .page-heading .page-subheading,
 .intro-header .post-heading .post-subheading {
   font-size: 2.5rem;
 }
 
 .post-preview .post-title {
-  font-size: 2rem;
-}
-
-body {
-  font-size: 1rem;
+  font-size: 1.6rem;
 }
 
 .post-preview .post-meta,
 .post-heading .post-meta {
-  font-size: .8rem;
+  font-size: 1.4rem;
+}
+
+.post-preview .blog-tags,
+.blog-tags {
+  font-size: 1.4rem;
+}
+
+body {
+  font-size: 1.4rem;
+}
+
+.highlight pre {
+  font-size: 1.4rem;
 }
