@@ -1,11 +1,6 @@
 ---
 ---
 
-/* reduced the text size */
-/*body {
-  font-size: 14px;
-}*/
-
 /* Change default tag color*/
 .blog-tags a {
   color: #999;
@@ -128,7 +123,7 @@
 
 /* Font sizes */
 html {
-  font-size: 14px;
+  font-size: 12px;
 }
 
 .navbar-custom .nav li a {
