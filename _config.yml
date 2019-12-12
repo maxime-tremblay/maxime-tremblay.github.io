@@ -87,9 +87,7 @@ social-network-links:
 #  yelp: yourname
 
 # Demo application link
-demo-app:
-  domain: "http://max-playground.ddns.net/ords/f?p="
-  app_alias: "DEMO"
+demo-app: "https://askmax.solutions/ords/f?p=DEMO"
 
 # Select which share links to show in posts
 share-links-active:

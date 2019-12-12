@@ -1,0 +1,52 @@
+---
+layout: post
+title: Auto Expanding Menu on Hover
+tags: [HOVER, NAVIGATION, SIDE, EXPANDING, APEX5]
+thumbnail: https://4.bp.blogspot.com/-157Sknt89gg/Wcmzxf1CQ6I/AAAAAAAABdQ/Cb2CyjIR_q85h_ISgJ1ZJIAsfx7FJcsagCLcBGAs/s72-c/Auto-Expanding-Menu-Hover.gif
+---
+
+Today someone on the apex.world Slack asked a question about having the side navigation menu auto-expand when hovering it. So I thought I would share this with others as well.
+
+It can be easily be done using only a couple of JavaScript lines of code:
+```javascript
+(function(ut, $) {
+
+var TREE_NAV_WIDGET_KEY = 'nav';
+
+$(window).on('theme42ready', function() {
+    /* Make sure that the navigation menu is collapsed on page load */
+    if (ut.toggleWidgets.isExpanded(TREE_NAV_WIDGET_KEY)){
+        ut.toggleWidgets.collapseWidget(TREE_NAV_WIDGET_KEY);
+    }
+
+    /* Expand on mouse over, collapse on mouse out */
+    $('.apex-side-nav.js-navCollapsed .t-Body-nav').hover(
+        function(){
+            ut.toggleWidgets.expandWidget(TREE_NAV_WIDGET_KEY);
+        },
+        function() {
+            ut.toggleWidgets.collapseWidget(TREE_NAV_WIDGET_KEY);
+        }
+    );
+});
+
+})(apex.theme42, apex.jQuery);
+```
+
+First thing we need to do is make sure that the side navigation is collapsed.
+Then we add a hovering handler using the jQuery [.hover()](https://api.jquery.com/hover/){:target="_blank"} on the navigation menu container.
+
+You'll end up with something like this:
+
+![Auto Expanding Menu on Hover](https://4.bp.blogspot.com/-157Sknt89gg/Wcmzxf1CQ6I/AAAAAAAABdQ/Cb2CyjIR_q85h_ISgJ1ZJIAsfx7FJcsagCLcBGAs/s1600/Auto-Expanding-Menu-Hover.gif "Auto Expanding Menu on Hover"){:class="img-responsive center-block"}
+
+Have fun
+
+You can have a look at it in action in my [Demo Application]({{ site.demo-app }}:1200){:target="_blank"}
+
+> **Edit 09-27**
+> Now triggers the [custom navigation menu event](https://apex.oracle.com/pls/apex/f?p=42:6200){:target="_blank"}.
+> Also calls the delayResize function so that any sticky headers get resized correctly when the side navigation menu is expanded and collapsed.
+
+> **Edit 09-28**
+> Rewrote to use namespacing, wrapped using the "theme42ready" event and replaced the collapsed/expand calls with the universal theme functions.

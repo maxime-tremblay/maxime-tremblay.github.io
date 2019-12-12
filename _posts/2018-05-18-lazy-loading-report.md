@@ -27,7 +27,7 @@ If the page is taking 10 seconds to load, it will still take 10 seconds for the 
 But, the user experience is going to be a lot better because now the page will load instantaneously, then the report will take some time to load while displaying the processing icon.
 
 Here's what the query would look like
-``` sql
+```sql
 select /* your columns */
   from /* your tables */
  where 1 = 1 
@@ -35,7 +35,7 @@ select /* your columns */
 ```
 
 If you also need to be able to download the report, you'll need to add another condition so that it can work:
-``` sql
+```sql
 select /* your columns */
   from /* your tables */
  where 1 = 1 
@@ -54,9 +54,8 @@ For more information about the above condition, you can have a look [here]({% po
 
 Here's what the end result looks like compared to the standard behaviour:
 
-![alt text](https://4.bp.blogspot.com/-dZbAAOGtchc/Wv5APyJuMGI/AAAAAAAACF0/yvL3nQm2Vg8ZYRtdO82wJ4jTOTybVJalwCLcBGAs/s320/Lazy%2BLoad%2BReport.gif "Example"){:width="600px" class="img-responsive image-centered"}
+![Lazy Load Report](https://4.bp.blogspot.com/-dZbAAOGtchc/Wv5APyJuMGI/AAAAAAAACF0/yvL3nQm2Vg8ZYRtdO82wJ4jTOTybVJalwCLcBGAs/s320/Lazy%2BLoad%2BReport.gif){:width="600px" class="img-responsive center-block"}
 
-You can have a look at it in action in my 
-[Demo Application]({{ site.demo-app.domain }}{{ site.demo-app.app_alias }}:3500){:target="_blank"}
+You can have a look at it in action in my [Demo Application]({{ site.demo-app }}:3500){:target="_blank"}
 
 Enjoy!
