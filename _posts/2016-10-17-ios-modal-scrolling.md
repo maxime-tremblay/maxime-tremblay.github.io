@@ -1,7 +1,7 @@
 ---
 layout: post
 title: iOS Modal Scrolling
-tags: [SCROLLING, MODAL, APEX5]
+tags: [Modal, CSS]
 ---
 
 If you ever tried to scroll a modal page from within Safari on iOS you probably noticed that what is getting scrolled is the parent page content and not the actual modal content.

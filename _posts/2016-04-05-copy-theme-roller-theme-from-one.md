@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Copy Theme Roller Theme From One Application to Another
-tags: [Universal Theme, APEX5]
+tags: [Universal Theme, Theme Roller]
 thumbnail: https://3.bp.blogspot.com/-i0Zx6WGR1HE/VwPg2lXAJkI/AAAAAAAAAHs/j26syuVU4QgbM_iFkzhUy67ZF-DMrhKuw/s72-c/copy_universal_theme.gif
 ---
 

@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Adding a Clear Icon to an Item
-tags: [Icon, Item, APEX5, Clear]
+tags: [Interface, Button, JavaScript, CSS]
 thumbnail: https://4.bp.blogspot.com/-I4aQithEVqc/V9MuPI0ihoI/AAAAAAAAAN8/drYoI-KpEnoAX0L0aGAQtQOHLrJHT78uACLcB/s72-c/input_clear_icon.gif
 ---
 

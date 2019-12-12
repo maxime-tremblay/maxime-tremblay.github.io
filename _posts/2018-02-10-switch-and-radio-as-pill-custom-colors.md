@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Switch and Radio as Pill Custom Colors
-tags: []
+tags: [Interface, Items, CSS]
 thumbnail: https://3.bp.blogspot.com/-cD2_R9KvNoI/Wn-7-bZgXxI/AAAAAAAABp4/92MsI_MX_0YK1guUrdrmsozBLZudClXsACLcBGAs/s72-c/custom_color.png
 ---
 

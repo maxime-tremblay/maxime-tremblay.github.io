@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Button in Region Title
-tags: [Button, APEX5, Region]
+tags: [Interface, Region, CSS]
 thumbnail: https://3.bp.blogspot.com/-tlrQaSzYd8o/VyjUCYggODI/AAAAAAAAAI4/s6AaJah2jvMd0RI1_3rGlQrsB98_HG6LgCLcB/s72-c/default_button_region.png
 ---
 

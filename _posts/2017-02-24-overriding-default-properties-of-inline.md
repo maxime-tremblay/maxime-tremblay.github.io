@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Overriding the Default Properties of Inline Dialogs
-tags: [INLINE, MODAL, APEX5, DIALOG]
+tags: [Inline Dialog, JavaScript]
 ---
 
 When using inline modal, you can display them using the `openModal` JavaScript function.

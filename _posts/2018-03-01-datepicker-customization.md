@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Datepicker Customization
-tags: [DATEPICKER, CUSTOMIZATION, APEX5]
+tags: [Interface, Datepicker, JavaScript]
 thumbnail: https://3.bp.blogspot.com/-HLlWDazp9GM/WpgJgJ67ezI/AAAAAAAABrY/nm-g8iki4nEhFc77jT4YYRZjLE7uOTTVACLcBGAs/s72-c/Datepicker.png
 ---
 

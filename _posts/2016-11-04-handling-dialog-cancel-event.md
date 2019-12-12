@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Handling Dialog Cancel Event
-tags: [MODAL, APEX5, CANCEL]
+tags: [Modal, Event, JavaScript]
 ---
 
 If you ever had to handle a modal dialog close to trigger some action on the parent page, you probably used a dynamic action using the "Dialog Closed" event.

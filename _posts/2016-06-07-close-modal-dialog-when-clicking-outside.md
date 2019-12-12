@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Close Modal Dialog When Clicking Outside
-tags: [MODAL, APEX5, CLOSE]
+tags: [Modal, JavaScript]
 thumbnail: https://2.bp.blogspot.com/-vjmVbCg3UyA/V1cdVfpjB1I/AAAAAAAAALk/vAGqlJkt75gsVydUtxRbMPtGaLDiWNIKQCKgB/s72-c/close_dialog_click_outside.gif
 ---
 

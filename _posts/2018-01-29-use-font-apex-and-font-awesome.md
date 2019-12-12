@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Use Font APEX and Font Awesome Simultaneously
-tags: [FONT AWESOME, ICONS, APEX5, FONT APEX]
+tags: [Icons, Font APEX, Font Awesomed]
 thumbnail: https://2.bp.blogspot.com/-KUTIw5qWAnA/Wm9pmQK60uI/AAAAAAAABmY/4BlXI-f8P-kAXFSabBEButVHXcaLtSioQCLcBGAs/s72-c/Icons.png
 ---
 

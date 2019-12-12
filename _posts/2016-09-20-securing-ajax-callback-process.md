@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Securing Ajax Callback Process
-tags: [Secure, Ajax, APEX5]
+tags: [Security, Ajax, JavaScript]
 thumbnail: https://2.bp.blogspot.com/-0LLh5Thhf6o/V-Ls04N_pII/AAAAAAAAAOk/crYvzKRDdyEq2tNMztz1cPovbJyOhtmIACLcB/s72-c/arguments-checksum.png
 ---
 

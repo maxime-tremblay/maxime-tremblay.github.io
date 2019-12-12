@@ -1,7 +1,7 @@
 ---
 layout: post
 title: APEX 5.2 Page Designer Style for APEX 5.1
-tags: ['5.2',STYLISH,APEX5,UI,PAGE DESIGNER]
+tags: [Interface, Page Designer]
 thumbnail: https://2.bp.blogspot.com/-H6YPUx2e7BA/Wpn9acUYDKI/AAAAAAAABr4/f-W6L295rrU8uVA7ozvHgLOZm3fKp0eygCLcBGAs/s72-c/APEX5.2EA1.png
 ---
 

@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Customizing Cards Report
-tags: [Report, Cards, APEX5]
+tags: [Interface, Cards, CSS]
 thumbnail: https://1.bp.blogspot.com/-17vcNCl_d1E/V-05FFENk4I/AAAAAAAAAPI/HgSHTmjPMp411yjUDD602zZPpkqjKaeigCLcB/s72-c/cards-standard.png
 ---
 

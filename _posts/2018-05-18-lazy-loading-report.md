@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Lazy Loading Report
-tags: [Laxy Loading, Report]
+tags: [Performance, Interactive Report]
 thumbnail: https://4.bp.blogspot.com/-dZbAAOGtchc/Wv5APyJuMGI/AAAAAAAACF0/yvL3nQm2Vg8ZYRtdO82wJ4jTOTybVJalwCLcBGAs/s72-c/Lazy%2BLoad%2BReport.gif
 ---
 

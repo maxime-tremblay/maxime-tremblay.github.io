@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Region in Left-side Navbar Menu
-tags: [APEX5]
+tags: [Interface, Navigation, JavaScript, CSS]
 thumbnail: https://3.bp.blogspot.com/-fYxThqhdhOM/Vv5Y3YyVqDI/AAAAAAAAAGw/XNG9nSnZllUukCI_ix1gtH8P9vgVKREVA/s72-c/region%2Bin%2Bnavbar.png
 ---
 

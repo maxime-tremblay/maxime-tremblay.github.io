@@ -1,6 +1,7 @@
 ---
 layout: post
 title: Include or Exclude Columns in an Interactive Report Export
+tags: [Interactive Report, Export]
 thumbnail: https://3.bp.blogspot.com/-0NcDGlcjJN8/W3dyJcUMwJI/AAAAAAAACNo/czwSOF88RzoIabx5kCJ6jyp_zcJci19xgCLcBGAs/s72-c/IR_download.png
 ---
 

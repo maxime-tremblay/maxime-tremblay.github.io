@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Custom Confirm Dialog Button Labels
-tags: [Button, LABEL, confirm, APEX5, custom]
+tags: [Inline Dialog, Label, JavaScript]
 thumbnail: https://1.bp.blogspot.com/-eBVyM7xfSJM/WlEszXvEomI/AAAAAAAABik/8iA_OODNABApVy_AyJYHEG27Vu2mSYbRwCLcBGAs/s72-c/confirm.png
 ---
 

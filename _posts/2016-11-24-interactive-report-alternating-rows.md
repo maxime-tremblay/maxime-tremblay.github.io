@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Interactive Report Alternating Rows
-tags: [INTERACTIVE, Report, IR, COLOR, ROW, ALTERNATE, ALTERNATING, APEX5]
+tags: [Interface, Interactive Report, CSS]
 thumbnail: https://3.bp.blogspot.com/-TI_bO7RzwTo/WDccZrprIkI/AAAAAAAAATc/0deMFpc0XxET6_PpV55-V7E_rl1W1iYegCLcB/s72-c/Alternating%2BRows%2B2.png
 ---
 

@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Auto Publish All Translations When Importing an Application
-tags: [EXPORT, AUTOMATIC, SUPPORTING OBJECTS, TRANSLATION, APEX5]
+tags: [Translation, Supporting Objects]
 thumbnail: https://2.bp.blogspot.com/-Hz8FWC5KyZ4/WDMEsZVjb8I/AAAAAAAAAQo/OPprlgn3iXU5CXF8A3nga9RsNXkkoCsWgCLcB/s72-c/apt%2B-%2Bsupporting%2Bobjects.png
 ---
 

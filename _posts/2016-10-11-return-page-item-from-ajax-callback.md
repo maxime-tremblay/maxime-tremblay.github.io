@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Return Page Item From an AJAX Callback Process
-tags: [Ajax, APEX5, Return Item]
+tags: [Ajax, JavaScript]
 thumbnail: https://4.bp.blogspot.com/-ag95Sye9qZQ/V_exE59lE3I/AAAAAAAAAPw/at77ga4bZr0gEV9qkL-QXiPJ6yy_SvJwACLcB/s72-c/da-plsql.png
 ---
 

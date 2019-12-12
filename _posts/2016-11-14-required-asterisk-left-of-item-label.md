@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Required Asterisk Left of Item Label
-tags: [CSS, REQUIRED, ASTERISK, LABEL, BEFORE, APEX5]
+tags: [Interface, CSS]
 ---
 
 If you ever had a customer asked you to move the required asterisk of the item's label before the item itself, you probably had to copy the existing template and move the span that holds the asterisk before the item itself then you had to go through all you labels to change the template.

@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Accordion-Like Navigation Menu
-tags: [APEX5]
+tags: [Navigation, JavaScript]
 thumbnail: https://3.bp.blogspot.com/-wZnFBelsZjs/VryHuFVC52I/AAAAAAAAAFo/EyBjAfIspEk/s72-c/Accordion-Like%2BNavigation%2BMenu.gif
 ---
 

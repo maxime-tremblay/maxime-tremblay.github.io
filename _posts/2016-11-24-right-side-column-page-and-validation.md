@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Right Side Column Page and Validation Error Message Region
-tags: [RIGHT, NOTIFICATION, SIDE, MESSAGE, APEX5, CLOSE, Region]
+tags: [Interface, CSS]
 thumbnail: https://3.bp.blogspot.com/-Kxxv4S2gb-I/WDb_G29pqoI/AAAAAAAAASE/_PzxXnkNb9UqZIW56LJ-bG1iCXSgZE8cQCLcB/s72-c/Right%2BSide%2BColumn%2BPage%2Band%2BValidation%2BError%2BMessage%2BRegion.png
 ---
 

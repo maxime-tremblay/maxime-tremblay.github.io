@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Overlay Side Navigation Menu
-tags: [OVERLAY, CSS, NAVIGATION, Universal Theme, MENU, APEX5]
+tags: [Interface, Navigation, CSS]
 thumbnail: https://2.bp.blogspot.com/-jivlBcfyQHg/WEHgknEsS2I/AAAAAAAAAUs/zMuHQo5ueVEalgR0ccJWmfW2ncaTyYStgCLcB/s72-c/Default%2BSide%2BMenu.gif
 ---
 

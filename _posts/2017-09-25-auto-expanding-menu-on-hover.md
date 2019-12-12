@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Auto Expanding Menu on Hover
-tags: [HOVER, NAVIGATION, SIDE, EXPANDING, APEX5]
+tags: [Interface, Navigation, JavaScript]
 thumbnail: https://4.bp.blogspot.com/-157Sknt89gg/Wcmzxf1CQ6I/AAAAAAAABdQ/Cb2CyjIR_q85h_ISgJ1ZJIAsfx7FJcsagCLcBGAs/s72-c/Auto-Expanding-Menu-Hover.gif
 ---
 

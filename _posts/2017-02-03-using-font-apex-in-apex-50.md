@@ -1,7 +1,7 @@
 ---
 layout: post
 title: Using Font APEX in APEX 5.0
-tags: [CSS, APEX5, FONTAPEX]
+tags: [Icons, Font APEX]
 thumbnail: https://2.bp.blogspot.com/-2DYv9N50stY/WJQB3VuzkrI/AAAAAAAAAXY/-BZopVLn6QMu7SmiLl95x2pGGa9VUbd6ACLcB/s72-c/FontApex.png
 ---
 

@@ -1,7 +1,7 @@
 ---
 layout: post
 title: APEX Items the Application Builder Style
-tags: []
+tags: [Interface, Items, CSS]
 thumbnail: https://1.bp.blogspot.com/-SPrVBcE0oB4/WZHdTOpaWdI/AAAAAAAABNY/vbl0o4eMA20eZtU1uOa6YmCatX7KHZn-ACLcBGAs/s72-c/Page%2BDesigner.png
 ---
 
