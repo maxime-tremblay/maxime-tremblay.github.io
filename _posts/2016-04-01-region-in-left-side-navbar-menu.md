@@ -12,8 +12,8 @@ It's possible to do it using jQuery though.
 The way to do it is to have a region (in any position on the page) and to move it inside the left side navigation menu. Make sure the region you want move doesn't have any item in it, because it could result in error.
 
 For more info/details you could have a look at Martin D'Souza's blogposts:
-[http://www.talkapex.com/2015/07/back-to-basics-html-form.html](http://www.talkapex.com/2015/07/back-to-basics-html-form.html){:target="_blank"}
-[http://www.talkapex.com/2015/07/apex-and-html-form.html](http://www.talkapex.com/2015/07/apex-and-html-form.html){:target="_blank"}
+[http://www.talkapex.com/2015/07/back-to-basics-html-form.html](http://www.talkapex.com/2015/07/back-to-basics-html-form.html){:target="_blank"}  
+[http://www.talkapex.com/2015/07/apex-and-html-form.html](http://www.talkapex.com/2015/07/apex-and-html-form.html){:target="_blank"}  
 [http://www.talkapex.com/2015/07/apex-and-order-items-are-submitted.html](http://www.talkapex.com/2015/07/apex-and-order-items-are-submitted.html){:target="_blank"}
 
 Let's start by creating a Pie Chart region using the "Blank with Attributes" template.

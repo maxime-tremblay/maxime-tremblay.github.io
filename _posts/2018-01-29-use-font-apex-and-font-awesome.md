@@ -21,7 +21,6 @@ On top of that, since the two libraries are using the same "fa" prefix, we can't
 
 On the other hand, Font Awesome includes the LESS and Sass files so that we can customize and build the library ourselves.
 
-
 # What we'll do
 The idea is to include the Font APEX library using the built-in attributes. We'll then need to customize Font Awesome so that it uses a different prefix, build it and include that custom version into our application.
 
