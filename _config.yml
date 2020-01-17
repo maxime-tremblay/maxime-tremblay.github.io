@@ -29,11 +29,11 @@ navbar-links:
 
 # Image to show in the navigation bar - image must be a square (width = height)
 # Remove this parameter if you don't want an image in the navbar
-avatar: "/img/site/profile-round-small.png"
+avatar: "/assets/images/profile-round-small.png"
 
 # If you want to have an image logo in the top-left corner instead of the title text,
 # then specify the following parameter
-title-img: "/img/site/logo.png"
+title-img: "/assets/images/logo.png"
 
 # --- Background colour/image options --- #
 
@@ -52,9 +52,9 @@ footer-link-col: "#404040"
 # Alternatively, the navbar, footer, and page background can be set to use background images
 # instead of colour
 
-# navbar-img: "/img/site/bgimage.png"
-# footer-img: "/img/site/bgimage.png"
-# page-img: "/img/site/bgimage.png"
+# navbar-img: "/assets/images/bgimage.png"
+# footer-img: "/assets/images/bgimage.png"
+# page-img: "/assets/images/bgimage.png"
 
 # --- Footer options --- #
 
@@ -211,9 +211,9 @@ prose:
     - _config.yml
     - /_layouts
     - /_includes
-    - /css
-    - /img
-    - /js
+    - /assets/css
+    - /assets/img
+    - /assets/js
   metadata:
     _posts:
       - name: "layout"

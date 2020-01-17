@@ -2,13 +2,12 @@
 layout: post
 title: Return Page Item From an AJAX Callback Process
 tags: [Ajax, JavaScript]
-thumbnail: https://4.bp.blogspot.com/-ag95Sye9qZQ/V_exE59lE3I/AAAAAAAAAPw/at77ga4bZr0gEV9qkL-QXiPJ6yy_SvJwACLcB/s72-c/da-plsql.png
 ---
 
 Recently, I was working on a form that had multiple items retrieved when a select list item changed. The select list triggered a dynamic action that executed some PL/SQL code and returned item values.
 
 It was looking like that:
-![DA PL/SQL](https://4.bp.blogspot.com/-ag95Sye9qZQ/V_exE59lE3I/AAAAAAAAAPw/at77ga4bZr0gEV9qkL-QXiPJ6yy_SvJwACLcB/s1600/da-plsql.png "DA PL/SQL"){:width="450px" class="img-responsive center-block"}
+{% include images.html name="da-plsql.png" alt="DA PL/SQL" class="center-block" width="450px" %}
 
 At some point, the process became "too big" for the "Execute PL/SQL Code" action (it can only hold up to 4000 characters).
 
@@ -106,4 +105,4 @@ end;
 
 The idea here is to have PL/SQL AJAX Callback execute and if it successfully completes, it will be returning the list of items along with their values as JSON on which we are going to loop through and set the items' value using the JavaScript item API.
 
-You can have a look at my [Demo Application]({{ site.demo-app }}:2300){:target="_blank"}
+You can have a look at my {% include demo.html label="Demo Application" page="2300" %}

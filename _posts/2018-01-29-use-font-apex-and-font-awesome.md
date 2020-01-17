@@ -2,7 +2,6 @@
 layout: post
 title: Use Font APEX and Font Awesome Simultaneously
 tags: [Icons, Font APEX, Font Awesome]
-thumbnail: https://2.bp.blogspot.com/-KUTIw5qWAnA/Wm9pmQK60uI/AAAAAAAABmY/4BlXI-f8P-kAXFSabBEButVHXcaLtSioQCLcBGAs/s72-c/Icons.png
 ---
 
 APEX 5.0 gave us the ability to include the Font Awesome library in our applications. In APEX 5.1, Font APEX was added the the list of icon library.
@@ -77,10 +76,10 @@ In order to use our customized Font Awesome, we will need to use our custom clas
 ```
 
 You'll then be able to use both at the same time, like this:
-![Icons](https://2.bp.blogspot.com/-KUTIw5qWAnA/Wm9pmQK60uI/AAAAAAAABmY/4BlXI-f8P-kAXFSabBEButVHXcaLtSioQCLcBGAs/s1600/Icons.png "Icons"){:class="img-responsive center-block"}
+{% include images.html name="Icons.png" alt="Icons" class="center-block" %}
 
-You can have a look at it in action in my [Demo Application]({{ site.demo-app }}:2000){:target="_blank"}
+You can have a look at my {% include demo.html label="Demo Application" page="2000" %}
 
-You can also get the custom Font Awesome library: [here](https://drive.google.com/file/d/10b9jedIyqSNzOKdvF7HR3xFRkE85zG7a){:target="_blank"}
+You can also get the custom Font Awesome library: [here]({{"custom-font-awesome.zip" | prepend: postsAssetPrefix}})
 
 Enjoy!

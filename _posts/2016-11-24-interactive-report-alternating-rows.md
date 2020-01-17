@@ -2,16 +2,15 @@
 layout: post
 title: Interactive Report Alternating Rows
 tags: [Interface, Interactive Report, CSS]
-thumbnail: https://3.bp.blogspot.com/-TI_bO7RzwTo/WDccZrprIkI/AAAAAAAAATc/0deMFpc0XxET6_PpV55-V7E_rl1W1iYegCLcB/s72-c/Alternating%2BRows%2B2.png
 ---
 
 For classic reports there is a region attribute template option to have the rows have alternating row color.
 
-![Alternating Rows Classic](https://2.bp.blogspot.com/-io52mkse_hs/WDcQvQZ_pdI/AAAAAAAAASk/MwCrgoDOgm4RHtaB7VNTUuu-pM5NhChmwCLcB/s1600/Alternating%2BRows%2B-%2BClassic.png "Alternating Rows Classic"){:width="400px" class="img-responsive center-block"}
+{% include images.html name="Alternating_Rows_-_Classic.png" alt="Alternating Rows Classic" class="center-block" width="400px" %}
 
 That template option is not part of the interactive report template options.
 
-![Alternating Rows Classic](https://2.bp.blogspot.com/--lVCmNgJGSs/WDcRBLaLjgI/AAAAAAAAASo/NejdkK2Tb3YGoY9ZB3l6ecV8ZrENtx8xwCLcB/s1600/Alternating%2BRows%2B-%2BInteractive.png "Alternating Rows Classic"){:width="400px" class="img-responsive center-block"}
+{% include images.html name="Alternating_Rows_-_Interactive.png" alt="Alternating Rows Classic" class="center-block" width="400px" %}
 
 We can achieve the same effect in an interactive using once again some CSS.
 
@@ -28,7 +27,7 @@ We can achieve the same effect in an interactive using once again some CSS.
 The only thing left to do is to add the "customAlternatingRow" class to your region (under Appearance, CSS Classes) or at the page level.
 
 It will then look like this:
-![Alternating Rows](https://3.bp.blogspot.com/-JXfKXR3z_pY/WDcWyxASa3I/AAAAAAAAATA/K1fasAaCunIYByX7v4WQXFOkxiyzuvwEgCLcB/s1600/Alternating%2BRows.png "Alternating Rows"){:width="500px" class="img-responsive center-block"}
+{% include images.html name="Alternating_Rows.png" alt="Alternating Rows" class="center-block" width="500px" %}
 
 The classic report is using <span style="background-color: #fcfcfc; border-color: #000; display: inline-block; height: 15px; width: 15px;"> </span> #fcfcfc (very light gray) for the odd rows and nothing for the even rows.
 
@@ -39,7 +38,7 @@ The classic report is using <span style="background-color: #fcfcfc; border-color
 ```
 
 Which would look like this:
-![Alternating Rows 2](https://3.bp.blogspot.com/-TI_bO7RzwTo/WDccZrprIkI/AAAAAAAAATc/0deMFpc0XxET6_PpV55-V7E_rl1W1iYegCLcB/s1600/Alternating%2BRows%2B2.png "Alternating Rows 2"){:width="500px" class="img-responsive center-block"}
+{% include images.html name="Alternating_Rows_2.png" alt="Alternating Rows 2" class="center-block" width="500px" %}
 
 If you would like to also change the highlighted/hovered row color, you can use the following CSS:
 
@@ -60,4 +59,4 @@ Browser Support of the :nth-child() Selector (from [w3school](http://www.w3schoo
 |--------------|:------:|:---:|:-------:|:------:|:-----:|
 | :nth-child() |   4.0  | 9.0 |   3.5   |   3.2  |  9.6  |
 
-You can have a look at my [Demo Application]({{ site.demo-app }}:2900){:target="_blank"}
+You can have a look at my {% include demo.html label="Demo Application" page="2900" %}

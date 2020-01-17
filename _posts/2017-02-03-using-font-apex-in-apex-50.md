@@ -2,10 +2,9 @@
 layout: post
 title: Using Font APEX in APEX 5.0
 tags: [Icons, Font APEX]
-thumbnail: https://2.bp.blogspot.com/-2DYv9N50stY/WJQB3VuzkrI/AAAAAAAAAXY/-BZopVLn6QMu7SmiLl95x2pGGa9VUbd6ACLcB/s72-c/FontApex.png
 ---
 
-![Font APEX](https://2.bp.blogspot.com/-2DYv9N50stY/WJQB3VuzkrI/AAAAAAAAAXY/-BZopVLn6QMu7SmiLl95x2pGGa9VUbd6ACLcB/s1600/FontApex.png "Font APEX"){:width="320px" class="img-responsive center-block"}
+{% include images.html name="FontApex.png" alt="Font APEX" class="center-block" width="320px" %}
 
 APEX 5.1 introduced Font APEX, a new icon library designed to complement Universal Theme and to replace Font Awesome. The same "fa" prefix for the icons was kept so that it's easier to move from Font Awesome to this entirely new icon library.
 
@@ -17,20 +16,20 @@ Don't worry you are able to do so.
 Here's how you can do it.
 
 First, let's get the Font APEX library files.
-You can get them from the [APEX 5.1 installation](http://www.oracle.com/technetwork/developer-tools/apex/downloads/index.html){:target="_blank"} file under the `images\libraries\font-apex` folder (or from <a href="https://drive.google.com/uc?export=download&amp;id=0BzJsLftbKSZSbkwzNGtzak1KaDQ" target="_blank">here</a>)
+You can get them from the [APEX 5.1 installation](http://www.oracle.com/technetwork/developer-tools/apex/downloads/index.html){:target="_blank"} file under the `images\libraries\font-apex` folder (or from [here]({{"font-apex_(v1.0).zip" | prepend: postsAssetPrefix}}))
 
 Then you will need to import these files in your application (let's do it using the Static Application Files for the sake of simplicity, but you could also import them in the Static Workspace Files or copy them on your web server).
 
 > **Note:** zipping the font-apex folder will enable us to upload only that zipped file instead of every single file from the folder using the zip file will also keep the folder structure.
 
 
-![Upload Files](https://1.bp.blogspot.com/-6GZWKu3Znfw/WJQGBbuWkSI/AAAAAAAAAYQ/DpIzvqS4M-kCPQovg3TfV_uj2SAEYPnPgCLcB/s1600/upload_files.png "Upload Files"){:width="550px" class="img-responsive center-block"}
+{% include images.html name="upload_files.png" alt="Upload Files" class="center-block" width="550px" %}
 
 You will end up with the following files:
-![Upload Files](https://2.bp.blogspot.com/-MVtE8mYswE4/WJP7JKlL1wI/AAAAAAAAAW8/m1gZf-5OFbErROBYPMtQ-O-6a65FaOAZACLcB/s1600/upload_files_2.png "Upload Files"){:width="550px" class="img-responsive center-block"}
+{% include images.html name="upload_files_2.png" alt="Upload Files" class="center-block" width="550px" %}
 
 Then, let's remove the Font Awesome and include the Font APEX.
-![Include Files](https://1.bp.blogspot.com/-o6c371Fb1fQ/WJkvh7cD58I/AAAAAAAAAY8/FdAhORRY_j0OkQUVV0mjmrWj7sIVCKm1ACLcB/s1600/include_files.png "Include Files"){:width="550px" class="img-responsive center-block"}
+{% include images.html name="include_files.png" alt="Include Files" class="center-block" width="550px" %}
 
 > **Notes:**  
 > Step 4 removes the Font Awesome reference.  

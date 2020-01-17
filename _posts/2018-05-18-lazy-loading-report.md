@@ -2,7 +2,6 @@
 layout: post
 title: Lazy Loading Report
 tags: [Performance, Interactive Report]
-thumbnail: https://4.bp.blogspot.com/-dZbAAOGtchc/Wv5APyJuMGI/AAAAAAAACF0/yvL3nQm2Vg8ZYRtdO82wJ4jTOTybVJalwCLcBGAs/s72-c/Lazy%2BLoad%2BReport.gif
 ---
 
 I was recently asked to have a look at an APEX page that took some time to load. That particular page was accessed using the navigation menu. Since the load time was longer than usual, users were often clicking multiple times on it while waiting.
@@ -54,8 +53,8 @@ For more information about the above condition, you can have a look [here]({% po
 
 Here's what the end result looks like compared to the standard behaviour:
 
-![Lazy Load Report](https://4.bp.blogspot.com/-dZbAAOGtchc/Wv5APyJuMGI/AAAAAAAACF0/yvL3nQm2Vg8ZYRtdO82wJ4jTOTybVJalwCLcBGAs/s320/Lazy%2BLoad%2BReport.gif){:width="600px" class="img-responsive center-block"}
+{% include images.html name="Lazy_Load_Report.gif" alt="Lazy Load Report" class="center-block" %}
 
-You can have a look at it in action in my [Demo Application]({{ site.demo-app }}:3500){:target="_blank"}
+You can have a look at my {% include demo.html label="Demo Application" page="3500" %}
 
 Enjoy!

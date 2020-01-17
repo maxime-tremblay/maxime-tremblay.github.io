@@ -2,13 +2,12 @@
 layout: post
 title: Close Modal Dialog When Clicking Outside
 tags: [Modal, JavaScript]
-thumbnail: https://2.bp.blogspot.com/-vjmVbCg3UyA/V1cdVfpjB1I/AAAAAAAAALk/vAGqlJkt75gsVydUtxRbMPtGaLDiWNIKQCKgB/s72-c/close_dialog_click_outside.gif
 ---
 
 A couple weeks ago someone on apex.world slack asked a question regarding how to capture the cancel dialog event.
 
 Juergen Schuster came up with a solution using the dialog's page attribute "Attributes" (under the Dialog section) to add/define the dialog with a custom close callback when initializing it.
-![Dialog Attribute](https://4.bp.blogspot.com/-mUD55pMzs0c/V1cL2UGo1II/AAAAAAAAAKM/-7tHnY98hrEdJemZx2cl_NVxCyV1VS8tQCLcB/s1600/dialog_attribute.png "Dialog Attribute"){:width="420" class="img-responsive center-block"}
+{% include images.html name="dialog_attribute.png" alt="Dialog Attribute" class="center-block" width="420px" %}
 
 Using the same logic we can use it to define a new open callback that will trigger the close dialog method when clicking outside the dialog.
 
@@ -28,6 +27,6 @@ open: function( event, ui ) { closeDialogClickOutside(this); }
 ```
 
 Here's what you will get:
-![Close Dialog Click Outside](https://2.bp.blogspot.com/-vjmVbCg3UyA/V1cdVfpjB1I/AAAAAAAAALk/vAGqlJkt75gsVydUtxRbMPtGaLDiWNIKQCKgB/s1600/close_dialog_click_outside.gif "Close Dialog Click Outside"){:class="img-responsive"}
+{% include images.html name="close_dialog_click_outside.gif" alt="Close Dialog Click Outside" %}
 
-You can have a look at my [Demo Application]({{ site.demo-app }}:1800){:target="_blank"}
+You can have a look at my {% include demo.html label="Demo Application" page="1800" %}

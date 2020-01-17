@@ -2,7 +2,6 @@
 layout: post
 title: Datepicker Customization
 tags: [Interface, Datepicker, JavaScript]
-thumbnail: https://3.bp.blogspot.com/-HLlWDazp9GM/WpgJgJ67ezI/AAAAAAAABrY/nm-g8iki4nEhFc77jT4YYRZjLE7uOTTVACLcBGAs/s72-c/Datepicker.png
 ---
 
 Back in 2010, the Oracle Application Express release 4.0 included the jQuery JavaScript library as well as the jQuery UI JavaScript library. With it came the new revision of the datepicker item based on the jQuery UI's widget as we have it today. Most of the widget's options are available to us as item attributes.
@@ -42,9 +41,9 @@ $('#P1000_DATE_5').datepicker("option", "beforeShowDay", function(date) {return 
 
 However, if you change an option for a datepicker item, you'll notice that the icon trigger will look different.
 
-![Datepicker APEX5.0](https://4.bp.blogspot.com/-6Y_YUy2R2Eg/WpYErX_U6ZI/AAAAAAAABq4/480JDSD6pksXI304DRxSq7BiIZOBDK8WQCLcBGAs/s1600/Datepicker-APEX5.0.png "Datepicker APEX5.0"){:width="400px" class="img-responsive center-block"}
+{% include images.html name="Datepicker-APEX5.0.png" alt="Datepicker APEX5.0" class="center-block" width="400px" %}
 
-![Datepicker APEX5.1](https://2.bp.blogspot.com/-cKTHzIHpZwQ/WpYErQs_zuI/AAAAAAAABq0/Eln8oxF3TK8Q_UgzdVuMGL-UD0XslWrgwCLcBGAs/s1600/Datepicker-APEX5.1.png "Datepicker APEX5.1"){:width="400px" class="img-responsive center-block"}
+{% include images.html name="Datepicker-APEX5.1.png" alt="Datepicker APEX5.1" class="center-block" width="400px" %}
 
 So what's going on exactly?  
 Let's have a look at the html.
@@ -103,6 +102,6 @@ $('.hasDatepicker').datepicker("option", "firstDay", 1).next('button').addClass(
 
 If the previous code is not working as expected, it my be due to a timing issue. Since the code to customize the datepicker items is executed on page load and that the dapicker are initialized on page load also. The customizing code could be running before the actual initialization. To fix that you can add a short delay to it.
 
-You can have a look at it in action in my [Demo Application]({{ site.demo-app }}:3200){:target="_blank"}
+You can have a look at my {% include demo.html label="Demo Application" page="3200" %}
 
 Enjoy! 

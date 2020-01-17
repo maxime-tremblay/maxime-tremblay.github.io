@@ -21,4 +21,4 @@ Let's say you're using Skillbuilders' Modal Plugin, you can use the following:
 }
 ```
 
-You can have a look at my [Demo Application]({{ site.demo-app }}:2400){:target="_blank"}
+You can have a look at my {% include demo.html label="Demo Application" page="2400" %}

@@ -2,6 +2,8 @@
 layout: base
 ---
 
+{% capture postsAssetPrefix %}/assets/posts{{ page.url | replace_first: "/", "-" | replace_first: "/", "-" | replace_first: "/", "-" | replace_first: "/", "-" | replace_first: "-", "/" }}{% endcapture %}
+
 {% include header.html type="post" %}
 
 <div class="container">

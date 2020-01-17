@@ -2,14 +2,13 @@
 layout: post
 title: Securing Ajax Callback Process
 tags: [Security, Ajax, JavaScript]
-thumbnail: https://2.bp.blogspot.com/-0LLh5Thhf6o/V-Ls04N_pII/AAAAAAAAAOk/crYvzKRDdyEq2tNMztz1cPovbJyOhtmIACLcB/s72-c/arguments-checksum.png
 ---
 
 When navigating from a report page to the corresponding detail page, it's always a good practice to enable the parameters checksum to prevent users from tampering with the item values that are in the url.
 
 To enable arguments checksum, you must first set the "Page Access Protection" attribute under the page attribute security section to "Arguments must have checksum" and then for each item that is going to be assigned from the url, you need to set the "Session State Protection" to one of the "Checksum Required" value (have a look at the item's help for more details about the different types of checksum).
 
-![Arguments Checksum](https://2.bp.blogspot.com/-0LLh5Thhf6o/V-Ls04N_pII/AAAAAAAAAOk/crYvzKRDdyEq2tNMztz1cPovbJyOhtmIACLcB/s1600/arguments-checksum.png "Arguments Checksum"){:class="img-responsive"}
+{% include images.html name="arguments-checksum.png" alt="Arguments Checksum" %}
 
 That way the user is not going to be able to change any value from the url.
 

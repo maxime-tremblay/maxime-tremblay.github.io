@@ -2,7 +2,6 @@
 layout: post
 title: Region in Left-side Navbar Menu
 tags: [Interface, Navigation, JavaScript, CSS]
-thumbnail: https://3.bp.blogspot.com/-fYxThqhdhOM/Vv5Y3YyVqDI/AAAAAAAAAGw/XNG9nSnZllUukCI_ix1gtH8P9vgVKREVA/s72-c/region%2Bin%2Bnavbar.png
 ---
 
 As of now, there is now way to edit the Navigation Menu template under the page template to let's say add a region above or below it.
@@ -58,6 +57,6 @@ You can also hide the region when the menu is collapsed.
 
 You will then get something like this:
 
-![Region in Navbar](https://3.bp.blogspot.com/-fYxThqhdhOM/Vv5Y3YyVqDI/AAAAAAAAAGw/XNG9nSnZllUukCI_ix1gtH8P9vgVKREVA/s1600/region%2Bin%2Bnavbar.png "Region in Navbar"){:width="320px" class="img-responsive center-block"}
+{% include images.html name="region_in_navbar.png" alt="" class="center-block" width="320px" %}
 
-You can have a look at my [Demo Application]({{ site.demo-app }}:1400){:target="_blank"}
+You can have a look at my {% include demo.html label="Demo Application" page="1400" %}

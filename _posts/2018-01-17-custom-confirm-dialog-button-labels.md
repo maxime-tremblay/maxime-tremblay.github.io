@@ -2,7 +2,6 @@
 layout: post
 title: Custom Confirm Dialog Button Labels
 tags: [Inline Dialog, Label, JavaScript]
-thumbnail: https://1.bp.blogspot.com/-eBVyM7xfSJM/WlEszXvEomI/AAAAAAAABik/8iA_OODNABApVy_AyJYHEG27Vu2mSYbRwCLcBGAs/s72-c/confirm.png
 ---
 
 Some time ago, someone on the apex.world Slack channel asked a question about the APEX confirm dialog. The question was if it was possible to change the labels of the confirm dialog buttons from "Cancel/Ok" to "No/Yes".
@@ -31,7 +30,7 @@ apex.message.confirm( "Are you sure?", function( okPressed ) {
 
 Would display this dialog:
 
-![Confirm Dialog](https://1.bp.blogspot.com/-eBVyM7xfSJM/WlEszXvEomI/AAAAAAAABik/8iA_OODNABApVy_AyJYHEG27Vu2mSYbRwCLcBGAs/s1600/confirm.png "Confirm Dialog"){:width="400px" class="img-responsive center-block"}
+{% include images.html name="confirm.png" alt="Confirm Dialog" class="center-block" width="400px" %}
 
 Now, back to the original question. What if we would like to change those button labels.
 
@@ -73,11 +72,11 @@ customConfirm( "Are you sure?", function( okPressed ) {
 ```
 
 Would result in this:
-![Custom Confirm](https://1.bp.blogspot.com/-73eOhk-0WTI/WlLk6qf2kkI/AAAAAAAABjE/krBSlYLa8-kdqSDkUnyMEG2JLoo1tZVmQCPcBGAYYCw/s1600/custom_confirm.png "Custom Confirm"){:width="400px" class="img-responsive center-block"}
+{% include images.html name="custom_confirm.png" alt="Custom Confirm" class="center-block" width="400px" %}
 
 or anything you want, like this:
-![Custom Confirm](https://1.bp.blogspot.com/-HWbZ81cjSbY/WlO9NO8YG0I/AAAAAAAABjc/YnGgqJ09tFsvNlKuz0LNh6v9IMuLdCX-ACPcBGAYYCw/s1600/custom_confirm2.png "Custom Confirm"){:width="400px" class="img-responsive center-block"}
+{% include images.html name="custom_confirm2.png" alt="Custom Confirm" class="center-block" width="400px" %}
 
-You can have a look at it in action in my [Demo Application]({{ site.demo-app }}:1700){:target="_blank"}
+You can have a look at my {% include demo.html label="Demo Application" page="1700" %}
 
 Enjoy!

@@ -49,4 +49,4 @@ JavaScript Expression: document
 
 One thing to note is that the default close event will still be triggered when using the close method.
 
-You can have a look at my [Demo Application]({{ site.demo-app }}:2500){:target="_blank"}
+You can have a look at my {% include demo.html label="Demo Application" page="2500" %}

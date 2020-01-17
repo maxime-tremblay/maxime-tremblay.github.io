@@ -2,7 +2,6 @@
 layout: post
 title: Accordion-Like Navigation Menu
 tags: [Navigation, JavaScript]
-thumbnail: https://3.bp.blogspot.com/-wZnFBelsZjs/VryHuFVC52I/AAAAAAAAAFo/EyBjAfIspEk/s72-c/Accordion-Like%2BNavigation%2BMenu.gif
 ---
 
 By default, it's only possible to expend the side navigation menu children submenu by clicking on the corresponding down arrow.
@@ -44,7 +43,7 @@ $('#t_Body_nav #t_TreeNav').on('click', 'ul li.a-TreeView-node div.a-TreeView-co
 });
 ```
 
-You can have a look at my [Demo Application]({{ site.demo-app }}:100){:target="_blank"}
+You can have a look at my {% include demo.html label="Demo Application" page="1000" %}
 
-Here's the end result:  
-![Navigation Menu](https://3.bp.blogspot.com/-wZnFBelsZjs/VryHuFVC52I/AAAAAAAAAFo/EyBjAfIspEk/s1600/Accordion-Like%2BNavigation%2BMenu.gif "Navigation Menu"){:width="320px" class="img-responsive center-block"}
+Here's the end result:
+{% include images.html name="Accordion-Like-Navigation-Menu.gif" alt="Navigation Menu" class="center-block" %}

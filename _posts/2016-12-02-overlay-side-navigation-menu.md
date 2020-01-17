@@ -2,12 +2,11 @@
 layout: post
 title: Overlay Side Navigation Menu
 tags: [Interface, Navigation, CSS]
-thumbnail: https://2.bp.blogspot.com/-jivlBcfyQHg/WEHgknEsS2I/AAAAAAAAAUs/zMuHQo5ueVEalgR0ccJWmfW2ncaTyYStgCLcB/s72-c/Default%2BSide%2BMenu.gif
 ---
 
 In the last couple of weeks, I've been playing with the side navigation menu. By default, the side navigation menu "pushes" the page content back and forth as it expands and collapses.
 Which looks just like this:
-![Default Side Menu](https://2.bp.blogspot.com/-jivlBcfyQHg/WEHgknEsS2I/AAAAAAAAAUs/zMuHQo5ueVEalgR0ccJWmfW2ncaTyYStgCLcB/s1600/Default%2BSide%2BMenu.gif "Default Side Menu"){:width="320px" class="img-responsive center-block"}
+{% include images.html name="Default_Side_Menu.gif" alt="Default Side Menu" class="center-block" width="320px" %}
 
 By overriding the Universal Theme's CSS related to the side navigation menu, I was able to make the menu display as an overlay.
 
@@ -28,8 +27,8 @@ $('.t-PageBody.js-navExpanded #t_Button_navControl').click();
 That code can be executed as a dynamic action on page 0 or in a global JavaScript file so that it's going to affect all pages in the application.
 
 You will get something that looks like this:
-![Overlay Side Menu](https://2.bp.blogspot.com/-zK1XIoqRUc0/WEHhCNrVh3I/AAAAAAAAAUw/Ml7yRHoQS5UhCLYZsn5i3cpXiL50tuXpACLcB/s1600/Overlay%2BSide%2BMenu.gif "Overlay Side Menu"){:width="320px" class="img-responsive center-block"}
+{% include images.html name="Overlay_Side_Menu.gif" alt="Overlay Side Menu" class="center-block" width="320px" %}
 
 If you would like to have the menu be fullscreen you can simply uncomment the fullscreen part at the end of the CSS file.
 
-You can have a look at my [Demo Application]({{ site.demo-app }}:2600){:target="_blank"}
+You can have a look at my {% include demo.html label="Demo Application" page="2600" %}

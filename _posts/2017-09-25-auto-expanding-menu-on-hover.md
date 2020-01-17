@@ -2,7 +2,6 @@
 layout: post
 title: Auto Expanding Menu on Hover
 tags: [Interface, Navigation, JavaScript]
-thumbnail: https://4.bp.blogspot.com/-157Sknt89gg/Wcmzxf1CQ6I/AAAAAAAABdQ/Cb2CyjIR_q85h_ISgJ1ZJIAsfx7FJcsagCLcBGAs/s72-c/Auto-Expanding-Menu-Hover.gif
 ---
 
 Today someone on the apex.world Slack asked a question about having the side navigation menu auto-expand when hovering it. So I thought I would share this with others as well.
@@ -38,11 +37,11 @@ Then we add a hovering handler using the jQuery [.hover()](https://api.jquery.co
 
 You'll end up with something like this:
 
-![Auto Expanding Menu on Hover](https://4.bp.blogspot.com/-157Sknt89gg/Wcmzxf1CQ6I/AAAAAAAABdQ/Cb2CyjIR_q85h_ISgJ1ZJIAsfx7FJcsagCLcBGAs/s1600/Auto-Expanding-Menu-Hover.gif "Auto Expanding Menu on Hover"){:class="img-responsive center-block"}
+{% include images.html name="Auto-Expanding-Menu-Hover.gif" alt="Auto Expanding Menu on Hover" class="center-block" %}
 
-Have fun
+Have fun!
 
-You can have a look at it in action in my [Demo Application]({{ site.demo-app }}:1200){:target="_blank"}
+You can have a look at my {% include demo.html label="Demo Application" page="1200" %}
 
 > **Edit 09-27**
 > Now triggers the [custom navigation menu event](https://apex.oracle.com/pls/apex/f?p=42:6200){:target="_blank"}.

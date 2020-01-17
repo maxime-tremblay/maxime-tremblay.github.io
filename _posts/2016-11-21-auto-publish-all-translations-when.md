@@ -2,7 +2,6 @@
 layout: post
 title: Auto Publish All Translations When Importing an Application
 tags: [Translation, Supporting Objects]
-thumbnail: https://2.bp.blogspot.com/-Hz8FWC5KyZ4/WDMEsZVjb8I/AAAAAAAAAQo/OPprlgn3iXU5CXF8A3nga9RsNXkkoCsWgCLcB/s72-c/apt%2B-%2Bsupporting%2Bobjects.png
 ---
 
 When working with translated application, once everything is done in the source application, you need to seed all the translations, then translate what needs to be and then publish all the translations.
@@ -26,17 +25,17 @@ But it would be great if that was executed as part of the install process.
 
 Supporting Objects to the rescue!!
 
-![Supporting Objects](https://2.bp.blogspot.com/-Hz8FWC5KyZ4/WDMEsZVjb8I/AAAAAAAAAQo/OPprlgn3iXU5CXF8A3nga9RsNXkkoCsWgCLcB/s1600/apt%2B-%2Bsupporting%2Bobjects.png "Supporting Objects"){:width="500px" class="img-responsive center-block"}
+{% include images.html name="supporting_objects.png" alt="Supporting Objects" class="center-block" width="500px" %}
 
 What we need to do is to create an Installation Script from scratch using the Editor that simply calls the API.
 
-![Create Installation Script 1](https://4.bp.blogspot.com/-2b-oW9xFr0k/WDMFrfgKN6I/AAAAAAAAARA/Fbih1u5ivpgSdti_NYm5H_TukjhV956twCLcB/s1600/apt%2B-%2Bcreate%2Binstallation%2Bscript%2B1.png "Create Installation Script 1"){:width="500px" class="img-responsive center-block"}
+{% include images.html name="create_installation_script_1.png" alt="Create Installation Script 1" class="center-block" width="500px" %}
 
-![Create Installation Script 2](https://2.bp.blogspot.com/-VbS7W5yr_c4/WDMFrcGhQMI/AAAAAAAAARI/6GG2EAMWsI4JRm_9ZGb0oN8qqsGGBn8BgCLcB/s1600/apt%2B-%2Bcreate%2Binstallation%2Bscript%2B2.png "Create Installation Script 2"){:width="500px" class="img-responsive center-block"}
+{% include images.html name="create_installation_script_2.png" alt="Create Installation Script 2" class="center-block" width="500px" %}
 
-![Create Installation Script 3](https://2.bp.blogspot.com/-AhMyk90iAJg/WDMFrTCd7dI/AAAAAAAAARE/HRmqkGSfP_QgVAG1dF3DObJ4-IrrZDCrACLcB/s1600/apt%2B-%2Bcreate%2Binstallation%2Bscript%2B3.png "Create Installation Script 3"){:width="500px" class="img-responsive center-block"}
+{% include images.html name="create_installation_script_3.png" alt="Create Installation Script 3" class="center-block" width="500px" %}
 
-![Create Installation Script 4](https://1.bp.blogspot.com/-wGn4jgt-m7o/WDMFrvZfv8I/AAAAAAAAARM/hhZJZDPWVxABjk7QOhrhjK4LdhiHST1gQCLcB/s1600/apt%2B-%2Bcreate%2Binstallation%2Bscript%2B4.png "Create Installation Script 4"){:width="500px" class="img-responsive center-block"}
+{% include images.html name="create_installation_script_4.png" alt="Create Installation Script 4" class="center-block" width="500px" %}
 
 Use below code:
 ```sql
@@ -57,7 +56,7 @@ end;
 
 Then, when you'll export your application, make sure you include the supporting objects and that you export the translations.
 
-![Export Application](https://1.bp.blogspot.com/-8qvsjkxMMDo/WDMGd5O4i-I/AAAAAAAAARQ/-6LNCx8gXD0JHm_pNRE4NYbNTeLnLsfcQCLcB/s1600/apt%2B-%2Bexport%2Bapplication.png "Export Application"){:width="500px" class="img-responsive center-block"}
+{% include images.html name="export_application.png" alt="Export Application" class="center-block" width="500px" %}
 
 > **Note:** Depending on how you will import the application, the "Export Supporting Object Definitions" attribute has to be set to either "Yes" or "Yes and Install on Import Automatically".
 > 
@@ -71,9 +70,9 @@ Then, when you'll export your application, make sure you include the supporting 
 
 When you'll import the application, simply choose to install the supporting objects.
 
-![Install Application 1](https://1.bp.blogspot.com/-N5EMdgjeOGw/WDMIcYYMZKI/AAAAAAAAARo/I-HvgqTNgbY4lAV6CV9LUII4tkEaT9usQCLcB/s1600/apt%2B-%2Binstall%2Bapplication%2B1.png "Install Application 1"){:width="500px" class="img-responsive center-block"}
+{% include images.html name="install_application_1.png" alt="Install Application 1" class="center-block" width="500px" %}
 
-![Install Application 2](https://1.bp.blogspot.com/-T6nUbp2x6pA/WDMIcc6dfAI/AAAAAAAAARk/-7KmjbITxzUumAgdYE3bTlwDEU0TPxu2ACLcB/s1600/apt%2B-%2Binstall%2Bapplication%2B2.png "Install Application 2"){:width="500px" class="img-responsive center-block"}
+{% include images.html name="install_application_1.png" alt="Install Application 2" class="center-block" width="500px" %}
 
 Voila, your application's translations will be automatically published as part of the import process.
 

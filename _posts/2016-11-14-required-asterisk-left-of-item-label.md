@@ -38,7 +38,7 @@ To move the asterisk span using only CSS, we can use the following code:
 }
 ```
 
-You can have a look at my [Demo Application]({{ site.demo-app }}:2700){:target="_blank"}
+You can have a look at my {% include demo.html label="Demo Application" page="2700" %}
 
 > **EDIT1:** Fix an issue with above labels. 
 

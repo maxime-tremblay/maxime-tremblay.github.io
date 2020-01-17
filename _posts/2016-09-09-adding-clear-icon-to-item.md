@@ -2,7 +2,6 @@
 layout: post
 title: Adding a Clear Icon to an Item
 tags: [Interface, Button, JavaScript, CSS]
-thumbnail: https://4.bp.blogspot.com/-I4aQithEVqc/V9MuPI0ihoI/AAAAAAAAAN8/drYoI-KpEnoAX0L0aGAQtQOHLrJHT78uACLcB/s72-c/input_clear_icon.gif
 ---
 
 Here's how to add a clear icon to an item (similar to the calendar icon of the datepicker item).
@@ -177,6 +176,6 @@ Final CSS:
 ```
 
 Here's the end result:
-![Input Clear Icon](https://4.bp.blogspot.com/-I4aQithEVqc/V9MuPI0ihoI/AAAAAAAAAN8/drYoI-KpEnoAX0L0aGAQtQOHLrJHT78uACLcB/s1600/input_clear_icon.gif "Input Clear Icon"){:class="img-responsive"}
+{% include images.html name="input_clear_icon.gif" alt="Input Clear Icon" %}
 
-You can have a look at my [Demo Application]({{ site.demo-app }}:2100){:target="_blank"}
+You can have a look at my {% include demo.html label="Demo Application" page="2100" %}
