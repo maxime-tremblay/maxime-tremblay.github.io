@@ -7,6 +7,8 @@ tags: [Interface, Navigation, JavaScript]
 Today someone on the apex.world Slack asked a question about having the side navigation menu auto-expand when hovering it. So I thought I would share this with others as well.
 
 It can be easily be done using only a couple of JavaScript lines of code:
+
+** APEX 5 and 18**
 ```javascript
 (function(ut, $) {
 
@@ -30,6 +32,33 @@ $(window).on('theme42ready', function() {
 });
 
 })(apex.theme42, apex.jQuery);
+```
+
+
+** APEX 19+**
+Starting with APEX 19.1, the `apex.theme42.toggleWidgets` is not exposed anymore, so we have to rely on trigger the click event of the menu toggle button.
+```javascript
+(function($) {
+    
+$(window).on('theme42ready', function() {
+    /* Make sure that the navigation menu is collapsed on page load */
+    if ($('.t-PageBody').hasClass('js-navExpanded')) {
+        $('#t_Button_navControl').click();
+    }
+
+    /* Expand on mouse over, collapse on mouse out */
+    $('.apex-side-nav .t-Body-nav').hover(
+        function(){
+            //only expand if the side menu is collapsed
+            $('.t-PageBody:not(.js-navExpanded) #t_Button_navControl').click();
+        },
+        function() {
+            $('#t_Button_navControl').click();
+        }
+    );
+});
+
+})(apex.jQuery);
 ```
 
 First thing we need to do is make sure that the side navigation is collapsed.
