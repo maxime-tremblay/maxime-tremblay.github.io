@@ -8,7 +8,7 @@ Today someone on the apex.world Slack asked a question about having the side nav
 
 It can be easily be done using only a couple of JavaScript lines of code:
 
-** APEX 5 and 18**
+**APEX 5 and 18**
 ```javascript
 (function(ut, $) {
 
@@ -35,7 +35,7 @@ $(window).on('theme42ready', function() {
 ```
 
 
-** APEX 19+**
+**APEX 19+**
 Starting with APEX 19.1, the `apex.theme42.toggleWidgets` is not exposed anymore, so we have to rely on trigger the click event of the menu toggle button.
 ```javascript
 (function($) {
