@@ -35,7 +35,7 @@ $(window).on('theme42ready', function() {
 ```
 
 
-**APEX 19+**
+**APEX 19+**  
 Starting with APEX 19.1, the `apex.theme42.toggleWidgets` is not exposed anymore, so we have to rely on trigger the click event of the menu toggle button.
 ```javascript
 (function($) {
