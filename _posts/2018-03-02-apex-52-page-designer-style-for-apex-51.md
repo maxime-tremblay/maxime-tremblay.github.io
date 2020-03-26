@@ -25,8 +25,7 @@ The following is relying on CSS only, no JavaScript required. So there's no risk
 
 So how can we do it?
 
-There's a super useful extension I used: [Stylish](https://userstyles.org/){:target="_blank"}
-[Stylish](https://userstyles.org/){:target="_blank"}  
+There's a super useful extension I used: [Stylish](https://userstyles.org/){:target="_blank"}  
 It's available on [Chrome](https://chrome.google.com/webstore/detail/.../fjnbnpbmkenffdnngjfgmeleoegfcffe){:target="_blank"}, [Firefox](https://addons.mozilla.org/en-US/firefox/addon/stylish/){:target="_blank"} and [Opera](https://addons.opera.com/en/extensions/details/stylish/){:target="_blank"}.
 
 What it does is inject CSS for whatever website your tell it to.
