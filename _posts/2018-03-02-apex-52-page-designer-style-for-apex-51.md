@@ -10,10 +10,10 @@ If you haven't, it's still available (as of writing this) for you to try at [ape
 If you have, you probably noticed that the user interface of the page designer was refined and is looking better than ever.
 
 APEX 5.2 Page Designer:
-{% include images.html name="APEX5.2EA1.png" alt="APEX5.2EA1" class="center-block" width="570px" %}
+{% include images.html name="APEX5.2EA1.png" alt="APEX5.2EA1" class="mx-auto" width="570px" %}
 
 APEX 5.1 Page Designer:
-{% include images.html name="APEX5.1-Standard.png" alt="APEX5.1-Standard" class="center-block" width="570px" %}
+{% include images.html name="APEX5.1-Standard.png" alt="APEX5.1-Standard" class="mx-auto" width="570px" %}
 
 After a while, you'll get use to the new look of the page designer and going back to 5.1 might feel weird.
 
@@ -67,7 +67,7 @@ How to set everything up:
 Since I'm working with APEX 5.1 everywhere, I'm using the regular expression `https?://(?:(?!apexea.oracle.com).)*f\?p=4000:4500.*` to apply it everywhere except apexea.oracle.com.
 
 Here's the end result:
-{% include images.html name="APEX5.1-Custom.png" alt="APEX5.1-Custom" class="center-block" width="570px" %}
+{% include images.html name="APEX5.1-Custom.png" alt="APEX5.1-Custom" class="mx-auto" width="570px" %}
 
 Of course not everything is the exact same. Everything that relies on new CSS classes or anything new will obviously not be replicated.
 

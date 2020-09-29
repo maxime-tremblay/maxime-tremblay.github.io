@@ -53,7 +53,7 @@ For more information about the above condition, you can have a look [here]({% po
 
 Here's what the end result looks like compared to the standard behaviour:
 
-{% include images.html name="Lazy_Load_Report.gif" alt="Lazy Load Report" class="center-block" %}
+{% include images.html name="Lazy_Load_Report.gif" alt="Lazy Load Report" class="mx-auto" %}
 
 You can have a look at my {% include demo.html label="Demo Application" page="3500" %}
 

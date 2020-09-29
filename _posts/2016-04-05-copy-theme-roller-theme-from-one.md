@@ -18,4 +18,4 @@ Paste it into the console to load the configuration into Theme Roller.
 
 Then you will only need to save this configuration as a new theme.
 
-{% include images.html name="copy_universal_theme.gif" alt="Copy Universal Theme" class="center-block" %}
+{% include images.html name="copy_universal_theme.gif" alt="Copy Universal Theme" class="mx-auto" %}

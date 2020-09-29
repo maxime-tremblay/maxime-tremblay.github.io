@@ -2,9 +2,12 @@
 _site
 .sass-cache
 .vagrant
-.jekyll-metadata
 
 # general
 .DS_Store
 Thumbs.db
 ehthumbs.db
+
+Gemfile.lock
+
+beautiful-jekyll-theme-*.gem

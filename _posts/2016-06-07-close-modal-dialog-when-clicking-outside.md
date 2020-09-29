@@ -7,7 +7,7 @@ tags: [Modal, JavaScript]
 A couple weeks ago someone on apex.world slack asked a question regarding how to capture the cancel dialog event.
 
 Juergen Schuster came up with a solution using the dialog's page attribute "Attributes" (under the Dialog section) to add/define the dialog with a custom close callback when initializing it.
-{% include images.html name="dialog_attribute.png" alt="Dialog Attribute" class="center-block" width="420px" %}
+{% include images.html name="dialog_attribute.png" alt="Dialog Attribute" class="mx-auto" width="420px" %}
 
 Using the same logic we can use it to define a new open callback that will trigger the close dialog method when clicking outside the dialog.
 

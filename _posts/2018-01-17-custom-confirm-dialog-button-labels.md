@@ -30,7 +30,7 @@ apex.message.confirm( "Are you sure?", function( okPressed ) {
 
 Would display this dialog:
 
-{% include images.html name="confirm.png" alt="Confirm Dialog" class="center-block" width="400px" %}
+{% include images.html name="confirm.png" alt="Confirm Dialog" class="mx-auto" width="400px" %}
 
 Now, back to the original question. What if we would like to change those button labels.
 
@@ -72,10 +72,10 @@ customConfirm( "Are you sure?", function( okPressed ) {
 ```
 
 Would result in this:
-{% include images.html name="custom_confirm.png" alt="Custom Confirm" class="center-block" width="400px" %}
+{% include images.html name="custom_confirm.png" alt="Custom Confirm" class="mx-auto" width="400px" %}
 
 or anything you want, like this:
-{% include images.html name="custom_confirm2.png" alt="Custom Confirm" class="center-block" width="400px" %}
+{% include images.html name="custom_confirm2.png" alt="Custom Confirm" class="mx-auto" width="400px" %}
 
 You can have a look at my {% include demo.html label="Demo Application" page="1700" %}
 

@@ -76,7 +76,7 @@ In order to use our customized Font Awesome, we will need to use our custom clas
 ```
 
 You'll then be able to use both at the same time, like this:
-{% include images.html name="Icons.png" alt="Icons" class="center-block" %}
+{% include images.html name="Icons.png" alt="Icons" class="mx-auto" %}
 
 You can have a look at my {% include demo.html label="Demo Application" page="2000" %}
 

@@ -7,7 +7,7 @@ tags: [Ajax, JavaScript]
 Recently, I was working on a form that had multiple items retrieved when a select list item changed. The select list triggered a dynamic action that executed some PL/SQL code and returned item values.
 
 It was looking like that:
-{% include images.html name="da-plsql.png" alt="DA PL/SQL" class="center-block" width="450px" %}
+{% include images.html name="da-plsql.png" alt="DA PL/SQL" class="mx-auto" width="450px" %}
 
 At some point, the process became "too big" for the "Execute PL/SQL Code" action (it can only hold up to 4000 characters).
 

@@ -25,17 +25,17 @@ But it would be great if that was executed as part of the install process.
 
 Supporting Objects to the rescue!!
 
-{% include images.html name="supporting_objects.png" alt="Supporting Objects" class="center-block" width="500px" %}
+{% include images.html name="supporting_objects.png" alt="Supporting Objects" class="mx-auto" width="500px" %}
 
 What we need to do is to create an Installation Script from scratch using the Editor that simply calls the API.
 
-{% include images.html name="create_installation_script_1.png" alt="Create Installation Script 1" class="center-block" width="500px" %}
+{% include images.html name="create_installation_script_1.png" alt="Create Installation Script 1" class="mx-auto" width="500px" %}
 
-{% include images.html name="create_installation_script_2.png" alt="Create Installation Script 2" class="center-block" width="500px" %}
+{% include images.html name="create_installation_script_2.png" alt="Create Installation Script 2" class="mx-auto" width="500px" %}
 
-{% include images.html name="create_installation_script_3.png" alt="Create Installation Script 3" class="center-block" width="500px" %}
+{% include images.html name="create_installation_script_3.png" alt="Create Installation Script 3" class="mx-auto" width="500px" %}
 
-{% include images.html name="create_installation_script_4.png" alt="Create Installation Script 4" class="center-block" width="500px" %}
+{% include images.html name="create_installation_script_4.png" alt="Create Installation Script 4" class="mx-auto" width="500px" %}
 
 Use below code:
 ```sql
@@ -56,7 +56,7 @@ end;
 
 Then, when you'll export your application, make sure you include the supporting objects and that you export the translations.
 
-{% include images.html name="export_application.png" alt="Export Application" class="center-block" width="500px" %}
+{% include images.html name="export_application.png" alt="Export Application" class="mx-auto" width="500px" %}
 
 > **Note:** Depending on how you will import the application, the "Export Supporting Object Definitions" attribute has to be set to either "Yes" or "Yes and Install on Import Automatically".
 > 
@@ -70,9 +70,9 @@ Then, when you'll export your application, make sure you include the supporting 
 
 When you'll import the application, simply choose to install the supporting objects.
 
-{% include images.html name="install_application_1.png" alt="Install Application 1" class="center-block" width="500px" %}
+{% include images.html name="install_application_1.png" alt="Install Application 1" class="mx-auto" width="500px" %}
 
-{% include images.html name="install_application_1.png" alt="Install Application 2" class="center-block" width="500px" %}
+{% include images.html name="install_application_1.png" alt="Install Application 2" class="mx-auto" width="500px" %}
 
 Voila, your application's translations will be automatically published as part of the import process.
 

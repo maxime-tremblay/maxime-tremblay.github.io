@@ -6,7 +6,7 @@ tags: [Interface, CSS]
 
 If you ever used the "Right Side Column" page template, you might have noticed that the validation error message region is displayed under the right side region's expand/collapse trigger button.
 
-{% include images.html name="Error_Message_Region.png" alt="Right Side Column Page Band Validation Error Message Region" class="center-block" width="500px" %}
+{% include images.html name="Error_Message_Region.png" alt="Right Side Column Page Band Validation Error Message Region" class="mx-auto" width="500px" %}
 
 As you can see above, the expand/collapse trigger button is on top of the close notification "X" button.
 
@@ -22,7 +22,7 @@ There are two ways to go in order to fix that, both using CSS only.
 ```
 
 It will then look like this:
-{% include images.html name="Fix_2.png" alt="Right Side Column Page Band Validation Error Message Region" class="center-block" width="500px" %}
+{% include images.html name="Fix_2.png" alt="Right Side Column Page Band Validation Error Message Region" class="mx-auto" width="500px" %}
 
 *The second method* is to reposition the notification region on top of the right side region's trigger button.
 
@@ -35,4 +35,4 @@ It will then look like this:
 ```
 
 It will then look like this:
-{% include images.html name="Fix_1.png" alt="Right Side Column Page Band Validation Error Message Region" class="center-block" width="500px" %}
+{% include images.html name="Fix_1.png" alt="Right Side Column Page Band Validation Error Message Region" class="mx-auto" width="500px" %}

@@ -4,7 +4,7 @@ title: Using Font APEX in APEX 5.0
 tags: [Icons, Font APEX]
 ---
 
-{% include images.html name="FontApex.png" alt="Font APEX" class="center-block" width="320px" %}
+{% include images.html name="FontApex.png" alt="Font APEX" class="mx-auto" width="320px" %}
 
 APEX 5.1 introduced Font APEX, a new icon library designed to complement Universal Theme and to replace Font Awesome. The same "fa" prefix for the icons was kept so that it's easier to move from Font Awesome to this entirely new icon library.
 
@@ -23,13 +23,13 @@ Then you will need to import these files in your application (let's do it using 
 > **Note:** zipping the font-apex folder will enable us to upload only that zipped file instead of every single file from the folder using the zip file will also keep the folder structure.
 
 
-{% include images.html name="upload_files.png" alt="Upload Files" class="center-block" width="550px" %}
+{% include images.html name="upload_files.png" alt="Upload Files" class="mx-auto" width="550px" %}
 
 You will end up with the following files:
-{% include images.html name="upload_files_2.png" alt="Upload Files" class="center-block" width="550px" %}
+{% include images.html name="upload_files_2.png" alt="Upload Files" class="mx-auto" width="550px" %}
 
 Then, let's remove the Font Awesome and include the Font APEX.
-{% include images.html name="include_files.png" alt="Include Files" class="center-block" width="550px" %}
+{% include images.html name="include_files.png" alt="Include Files" class="mx-auto" width="550px" %}
 
 > **Notes:**  
 > Step 4 removes the Font Awesome reference.  

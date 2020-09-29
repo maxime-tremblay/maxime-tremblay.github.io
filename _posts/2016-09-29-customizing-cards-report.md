@@ -33,7 +33,7 @@ Add following class to you region's CSS Class Attribute: "t-Cards--equal-height"
 ```
 
 Result will look like this:
-{% include images.html name="cards-equal-height.png" alt="Cards Equal Height" class="center-block" width="550px" %}
+{% include images.html name="cards-equal-height.png" alt="Cards Equal Height" class="mx-auto" width="550px" %}
 
 Now, let's highlight the header when hovering a card.
 Add following class to you region's CSS Class Attribute: `t-Cards--header-highlight` and the following CSS to your page.

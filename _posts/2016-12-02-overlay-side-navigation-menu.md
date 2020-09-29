@@ -6,7 +6,7 @@ tags: [Interface, Navigation, CSS]
 
 In the last couple of weeks, I've been playing with the side navigation menu. By default, the side navigation menu "pushes" the page content back and forth as it expands and collapses.
 Which looks just like this:
-{% include images.html name="Default_Side_Menu.gif" alt="Default Side Menu" class="center-block" width="320px" %}
+{% include images.html name="Default_Side_Menu.gif" alt="Default Side Menu" class="mx-auto" width="320px" %}
 
 By overriding the Universal Theme's CSS related to the side navigation menu, I was able to make the menu display as an overlay.
 
@@ -27,7 +27,7 @@ $('.t-PageBody.js-navExpanded #t_Button_navControl').click();
 That code can be executed as a dynamic action on page 0 or in a global JavaScript file so that it's going to affect all pages in the application.
 
 You will get something that looks like this:
-{% include images.html name="Overlay_Side_Menu.gif" alt="Overlay Side Menu" class="center-block" width="320px" %}
+{% include images.html name="Overlay_Side_Menu.gif" alt="Overlay Side Menu" class="mx-auto" width="320px" %}
 
 If you would like to have the menu be fullscreen you can simply uncomment the fullscreen part at the end of the CSS file.
 

@@ -41,9 +41,9 @@ $('#P1000_DATE_5').datepicker("option", "beforeShowDay", function(date) {return 
 
 However, if you change an option for a datepicker item, you'll notice that the icon trigger will look different.
 
-{% include images.html name="Datepicker-APEX5.0.png" alt="Datepicker APEX5.0" class="center-block" width="400px" %}
+{% include images.html name="Datepicker-APEX5.0.png" alt="Datepicker APEX5.0" class="mx-auto" width="400px" %}
 
-{% include images.html name="Datepicker-APEX5.1.png" alt="Datepicker APEX5.1" class="center-block" width="400px" %}
+{% include images.html name="Datepicker-APEX5.1.png" alt="Datepicker APEX5.1" class="mx-auto" width="400px" %}
 
 So what's going on exactly?  
 Let's have a look at the html.

@@ -46,4 +46,4 @@ $('#t_Body_nav #t_TreeNav').on('click', 'ul li.a-TreeView-node div.a-TreeView-co
 You can have a look at my {% include demo.html label="Demo Application" page="1000" %}
 
 Here's the end result:
-{% include images.html name="Accordion-Like-Navigation-Menu.gif" alt="Navigation Menu" class="center-block" %}
+{% include images.html name="Accordion-Like-Navigation-Menu.gif" alt="Navigation Menu" class="mx-auto" %}

@@ -66,7 +66,7 @@ Then we add a hovering handler using the jQuery [.hover()](https://api.jquery.co
 
 You'll end up with something like this:
 
-{% include images.html name="Auto-Expanding-Menu-Hover.gif" alt="Auto Expanding Menu on Hover" class="center-block" %}
+{% include images.html name="Auto-Expanding-Menu-Hover.gif" alt="Auto Expanding Menu on Hover" class="mx-auto" %}
 
 Have fun!
 

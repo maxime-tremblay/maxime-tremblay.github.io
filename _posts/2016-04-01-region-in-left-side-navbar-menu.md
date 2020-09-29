@@ -57,6 +57,6 @@ You can also hide the region when the menu is collapsed.
 
 You will then get something like this:
 
-{% include images.html name="region_in_navbar.png" alt="" class="center-block" width="320px" %}
+{% include images.html name="region_in_navbar.png" alt="" class="mx-auto" width="320px" %}
 
 You can have a look at my {% include demo.html label="Demo Application" page="1400" %}

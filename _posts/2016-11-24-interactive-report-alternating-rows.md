@@ -6,11 +6,11 @@ tags: [Interface, Interactive Report, CSS]
 
 For classic reports there is a region attribute template option to have the rows have alternating row color.
 
-{% include images.html name="Alternating_Rows_-_Classic.png" alt="Alternating Rows Classic" class="center-block" width="400px" %}
+{% include images.html name="Alternating_Rows_-_Classic.png" alt="Alternating Rows Classic" class="mx-auto" width="400px" %}
 
 That template option is not part of the interactive report template options.
 
-{% include images.html name="Alternating_Rows_-_Interactive.png" alt="Alternating Rows Classic" class="center-block" width="400px" %}
+{% include images.html name="Alternating_Rows_-_Interactive.png" alt="Alternating Rows Classic" class="mx-auto" width="400px" %}
 
 We can achieve the same effect in an interactive using once again some CSS.
 
@@ -27,7 +27,7 @@ We can achieve the same effect in an interactive using once again some CSS.
 The only thing left to do is to add the "customAlternatingRow" class to your region (under Appearance, CSS Classes) or at the page level.
 
 It will then look like this:
-{% include images.html name="Alternating_Rows.png" alt="Alternating Rows" class="center-block" width="500px" %}
+{% include images.html name="Alternating_Rows.png" alt="Alternating Rows" class="mx-auto" width="500px" %}
 
 The classic report is using <span style="background-color: #fcfcfc; border-color: #000; display: inline-block; height: 15px; width: 15px;"> </span> #fcfcfc (very light gray) for the odd rows and nothing for the even rows.
 
@@ -38,7 +38,7 @@ The classic report is using <span style="background-color: #fcfcfc; border-color
 ```
 
 Which would look like this:
-{% include images.html name="Alternating_Rows_2.png" alt="Alternating Rows 2" class="center-block" width="500px" %}
+{% include images.html name="Alternating_Rows_2.png" alt="Alternating Rows 2" class="mx-auto" width="500px" %}
 
 If you would like to also change the highlighted/hovered row color, you can use the following CSS:
 

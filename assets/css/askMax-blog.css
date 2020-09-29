@@ -2,11 +2,10 @@
 layout: null
 ---
 
-/* Change default tag color*/
+/* Change default tag color */
 .blog-tags a {
   color: #999;
 }
-
 .blog-tags a:hover {
   border-radius: 2px;
   color: {{ site.hover-col }};
@@ -17,6 +16,7 @@ layout: null
 .post-title {
   display: inline;
 }
+
 /* move the padding from the title to the post-meta */
 .post-preview .post-meta,
 .post-heading .post-meta {
@@ -24,71 +24,11 @@ layout: null
   font-size: 16px;
 }
 
+/* Read more link */
 .post-preview .post-read-more {
   font-weight: normal;
   display: inline-block;
   padding-top: 16px;
-}
-
-.navbar-custom .nav li a {
-  text-transform: none; /* Removes uppercasing */
-}
-
-.navbar-custom .avatar-container {
-  transform: translateX(-50%); /* Translates the container instead of adding margin on the image */
-}
-.navbar-custom .avatar-container .avatar-img-border {
-  margin-left: 0;
-}
-
-
-/* Fix for image in header for smaller device */
-@media only screen and (max-width: 768px) {
-  .navbar-custom .avatar-container {
-      margin-top: 10px;
-  }
-
-  .header-section {
-      margin-top: 110px;
-  }
-
-  .navbar-brand-logo{
-    max-width: calc(100vw - 34px - 10px - 10px - 10px); /* toggle icon, padding right, padding left, space */
-  }
-  
-  .navbar-brand-logo > img {
-    object-fit: contain;
-  }
-}
-
-/* Small devices (landscape phones, 576px and up) */
-@media (min-width: 576px) and (max-width: 768px) { 
-  .navbar-custom .avatar-container {
-    margin-top: 10px;
-  }
-
-  .header-section {
-    margin-top: 110px;
-  }
-
-  .navbar-brand-logo{
-    max-width: calc(100vw - 34px - 10px - 10px - 10px); /* toggle icon, padding right, padding left, space */
-  }
-
-  .navbar-brand-logo > img {
-    object-fit: contain;
-  }
-}
-
-/* Medium devices (tablets, 768px and up) */
-@media (min-width: 768px) and (max-width: 992px) { 
-  .navbar-custom .avatar-container {
-    margin-top: 10px;
-  }
-
-  .header-section {
-    margin-top: 190px;
-  }
 }
 
 .post-preview {
@@ -100,7 +40,7 @@ layout: null
   display: none;
 }
 
-.pager li a {
+.pagination .page-item .page-link {
   transition: all .2s;
 }
 
@@ -117,6 +57,64 @@ layout: null
   font-size: 24px;
 }
 
+/* ************************* */
+/* Navbar customizations     */
+/* ************************* */
+/* Removes uppercasing of the navbar items */
+.navbar-custom .navbar-nav li a {
+  text-transform: none; 
+}
+
+.navbar-custom .avatar-container {
+  width: 4.5rem;
+  transition: all 0.5s ease-in-out;
+  -webkit-transition: all 0.5s ease-in-out;
+  -moz-transition: all 0.5s ease-in-out;
+}
+
+/* Brand image */
+.navbar-custom .navbar-brand-logo img {
+  height: 3.2rem;
+  transition: all 0.5s ease-in-out;
+  -webkit-transition: all 0.5s ease-in-out;
+  -moz-transition: all 0.5s ease-in-out;
+}
+
+/* Larger devices */
+@media (min-width: 768px){
+  /* Move header down */
+  .intro-header {
+    margin-top: 11rem;
+  }
+
+  /* Move nav image down */
+  .navbar-custom .avatar-container {
+    margin-top: 5rem;
+    width: 8.5rem;
+  }
+
+  /* Brand image */
+  .navbar-custom .navbar-brand-logo img {
+    height: 4.2rem;
+  }
+}
+
+/* Smaller devices */
+@media (max-width: 768px) { 
+  /* Move header down */
+  .intro-header {
+    margin-top: 11rem;
+  }
+
+  /* Move nav image down */
+  .navbar-custom .avatar-container {
+    margin-top: 12rem;
+  }
+}
+
+
+
+/* Code highlighting */
 .highlight pre code * {
   white-space: nowrap;    /*this sets all children inside to nowrap */
 }
@@ -146,12 +144,12 @@ blockquote {
   box-shadow: 2px 2px 15px #ccc;
 }
 
-/* Font sizes */
+/* Font and sizes */
 html {
   font-size: 12px;
 }
 
-.navbar-custom .nav li a {
+.navbar-custom .navbar-nav li a {
   font-size: 1.4rem;
 }
 
@@ -184,11 +182,16 @@ body {
 }
 
 pre {
-  font-size: 14px;
+  /*font-size: 14px;*/
+  font-size: 1rem;
 }
 
 blockquote {
   font-size: .9em;
+}
+
+.pagination .page-item .page-link {
+  font-size: 1.2rem;
 }
 
 body,
@@ -201,7 +204,7 @@ footer .copyright,
 .intro-header .page-heading .page-subheading,
 .intro-header .post-heading .post-subheading,
 .intro-header.big-img .img-desc,
-.pager li a,
+.pagination .page-item .page-link,
 #full-tags-list
 {
   font-family: 'Helvetica Neue',Arial,sans-serif;

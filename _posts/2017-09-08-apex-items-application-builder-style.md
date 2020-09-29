@@ -6,7 +6,7 @@ tags: [Interface, Items, CSS]
 
 The APEX application builder has the items look and feel different compared to what you get in a regular application.
 
-{% include images.html name="Page_Designer.png" alt="Page Designer" class="center-block" width="400px" %}
+{% include images.html name="Page_Designer.png" alt="Page Designer" class="mx-auto" width="400px" %}
 
 You might think that they are looking good and that you would like to display them the same way in your application.
 
@@ -86,7 +86,7 @@ Here's the CSS you can use to do just that:
 Basically, the CSS will hide the top, left and right border of the items, while keeping the bottom border as well as the border's defined color. When the item is focused, all borders will be displayed as usual.
 
 You'll end up with something like this:
-{% include images.html name="APEX_Items_Builder_Style.gif" alt="APEX Items Builder Style" class="center-block"%}
+{% include images.html name="APEX_Items_Builder_Style.gif" alt="APEX Items Builder Style" class="mx-auto"%}
 
 You can have a look at my {% include demo.html label="Demo Application" page="3300" %}
 
