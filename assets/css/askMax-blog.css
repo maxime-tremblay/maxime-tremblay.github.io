@@ -10,6 +10,7 @@ layout: null
   border-radius: 2px;
   color: {{ site.hover-col }};
   background-color: #EEE;
+  border-color: transparent;
 }
 
 /* Making the post tile inline instead so that link is applied on text only */
@@ -17,22 +18,15 @@ layout: null
   display: inline;
 }
 
-/* move the padding from the title to the post-meta */
-.post-preview .post-meta,
-.post-heading .post-meta {
-  margin: 10px 0;
-  font-size: 16px;
-}
-
 /* Read more link */
 .post-preview .post-read-more {
   font-weight: normal;
   display: inline-block;
-  padding-top: 16px;
+  padding-top: .5rem;
 }
 
 .post-preview {
-  padding: 20px 0;
+  padding: 1.5rem 0;
   border-bottom: none;
 }
 
@@ -50,11 +44,6 @@ layout: null
 
 .intro-header .page-heading h1 {
   margin-top: 0;
-  font-size: 50px;
-}
-
-.post-preview .post-title {
-  font-size: 24px;
 }
 
 /* ************************* */
@@ -78,6 +67,25 @@ layout: null
   transition: all 0.5s ease-in-out;
   -webkit-transition: all 0.5s ease-in-out;
   -moz-transition: all 0.5s ease-in-out;
+}
+
+/* Larger devices */
+@media (min-width: 1200px){
+  /* Move header down */
+  .intro-header {
+    margin-top: 11rem;
+  }
+
+  /* Move nav image down */
+  .navbar-custom.top-nav-regular .avatar-container {
+    margin-top: 5rem;
+    width: 8.5rem;
+  }
+
+  /* Brand image */
+  .navbar-custom .navbar-brand-logo img {
+    height: 4.2rem;
+  }
 }
 
 /* Larger devices */
@@ -109,6 +117,12 @@ layout: null
   /* Move nav image down */
   .navbar-custom .avatar-container {
     margin-top: 12rem;
+  }
+}
+
+@media (max-width: 1199px) {
+  .navbar-custom .navbar-collapse {
+    border-top-color: transparent;
   }
 }
 
