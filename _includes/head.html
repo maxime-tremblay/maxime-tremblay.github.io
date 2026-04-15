@@ -133,6 +133,7 @@
 
   {% if img != "" %}
   <meta name="twitter:image" content="{{ img | absolute_url }}">
+  <meta name="twitter:image:src" content="{{ img | absolute_url }}">
   {% endif %}
 
   {% include matomo.html %}
