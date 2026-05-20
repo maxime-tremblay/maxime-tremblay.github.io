@@ -1,0 +1,25 @@
+{% capture postsAssetPrefix %}/assets/posts{{ page.url | replace_first: "/", "-" | replace_first: "/", "-" | replace_first: "/", "-" | replace_first: "/", "-" | replace_first: "-", "/" }}{% endcapture %}
+
+<div class="video-wrapper">
+  <video
+    {% if include.autoplay %}autoplay{% endif %}
+    {% if include.loop %}loop{% endif %}
+    {% if include.muted or include.autoplay %}muted{% endif %}
+    {% if include.controls != false %}controls{% endif %}
+    {% if include.playsinline != false %}playsinline{% endif %}
+    preload="{{ include.preload | default: 'metadata' }}"
+    poster="{{ include.poster | prepend: postsAssetPrefix | relative_url }}"
+    class="{{ include.class }}"
+  >
+    <source
+      src="{{ include.src | prepend: postsAssetPrefix | relative_url }}"
+      type="{{ include.type | default: 'video/mp4' }}"
+    >
+
+    Your browser does not support the video tag.
+  </video>
+
+  {% if include.caption %}
+    <p class="video-caption">{{ include.caption }}</p>
+  {% endif %}
+</div>
