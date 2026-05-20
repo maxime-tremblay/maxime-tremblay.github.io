@@ -27,6 +27,7 @@ nvl(:request, 'EMPTY') not in ('CSV','XLS','PDF','RTF','HTMLD')
 and nvl(wwv_flow.g_widget_action, 'EMPTY') <> 'SEND_EMAIL'
 ```
 
+Edit: the following only applies to 21.2 and below (see notes at the bottom for more info)
 That condition will work if there is only one interactive report on the page. If there is more than one report, the requests will be different.
 
 As we can see here:
@@ -44,3 +45,15 @@ and nvl(wwv_flow.g_widget_action, 'EMPTY') <> 'SEND_EMAIL'
 In order to centralize the condition and avoid code being duplicated/replicated everywhere that we need to use this, it's best to create an authorization schema that we can use instead of using the server-side condition. 
 
 Enjoy!
+
+
+Edit:
+Version 20.2 to 21.2
+- Excel exports are now using `XLSX` instead of `XLS`.
+- There's a new "Data Only" flag that has been added to the request name as Y/N.
+Requests would now look like this: `CSV_Y`, `CSV_N`, `XLSX_Y`, `XLSX_N`, etc.
+
+Version 22.1 and above
+- Requests to download a report are not submitting the page anymore. A plug-in AJAX request is now performed instead.
+- The "Data Only" flag value has been removed from the request's name
+- When more than one IR is on the page, the request remains the same
