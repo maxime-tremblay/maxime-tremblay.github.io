@@ -132,6 +132,7 @@ img {
   -webkit-transition: padding .5s ease-in-out;
   -moz-transition: padding .5s ease-in-out;
   transition: padding .5s ease-in-out;
+  column-gap: .5rem;
 }
 
 .navbar-custom,
@@ -956,6 +957,10 @@ pre {
 
 .blog-post img {
   max-width: 100%;
+}
+
+.blog-post video {
+    max-width: 100%;
 }
 
 .blog-post .caption {

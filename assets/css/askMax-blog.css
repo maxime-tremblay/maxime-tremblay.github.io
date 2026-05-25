@@ -128,6 +128,75 @@ layout: null
 
 
 
+/* ************************* */
+/* Search page               */
+/* ************************* */
+
+#search-container {
+  margin-top: 1rem;
+}
+
+#search-input {
+  width: 100%;
+  padding: .6rem 1rem;
+  font-size: 1.4rem;
+  border: 2px solid #ddd;
+  border-radius: 3px;
+  outline: none;
+  transition: border-color .2s;
+}
+
+#search-input:focus {
+  border-color: {{ site.link-col }};
+}
+
+#results-container {
+  list-style: none;
+  padding: 0;
+  margin-top: 1.5rem;
+}
+
+.search-result-item {
+  padding: 1.5rem 0;
+  border-bottom: 1px solid #ddd;
+}
+
+.search-result-item:last-child {
+  border-bottom: none;
+}
+
+a.search-result-title {
+  display: block;
+  font-size: 1.6rem;
+  font-weight: bold;
+  margin-bottom: .3rem;
+}
+
+.search-result-meta {
+  display: block;
+  font-size: 1.2rem;
+  color: #808080;
+  margin-bottom: .5rem;
+}
+
+.search-result-excerpt {
+  font-size: 1.3rem;
+  color: #555;
+  margin: .5rem 0;
+  line-height: 1.5;
+}
+
+.search-result-tags {
+  margin-top: .5rem;
+}
+
+.search-no-results {
+  list-style: none;
+  color: #808080;
+  font-style: italic;
+  margin-top: 1rem;
+}
+
 /* Code highlighting */
 .highlight pre code * {
   white-space: nowrap;    /*this sets all children inside to nowrap */
@@ -223,4 +292,31 @@ footer .copyright,
 .post-preview .post-meta,
 .post-heading .post-meta {
   font-family: 'Helvetica Neue',Arial,sans-serif;
+}
+
+h3 {
+  text-decoration: underline;
+  font-style: italic;
+}
+
+.blog-post blockquote:has(+ :not(blockquote)) {
+    margin-bottom: 3rem;
+}
+
+
+@media print {
+  .navbar,
+  #social-share-section,
+  .blog-pager,
+  .disqus-comments,
+  .blog-tags,
+  footer
+  {
+    display: none;
+  }
+
+  .intro-header {
+    margin-top: 1rem;
+  }
+
 }
