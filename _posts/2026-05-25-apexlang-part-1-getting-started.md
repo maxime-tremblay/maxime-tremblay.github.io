@@ -1,7 +1,7 @@
 ---
 layout: post
 title: APEXLang - Part 1 - Getting Started
-tags: [APEXLang, VS Code, SQLcl, AI]
+tags: [APEXLang, VS Code, SQLcl, AI, APEX26]
 ---
 
 APEX 26.1 was released on May 14, 2026. Turns out "soon" was now.
